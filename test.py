@@ -1,12 +1,14 @@
 import pandas as pd
-import matplotlib
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-data = pd.read_excel("ecomretailfixed.xls")
-date = data["observation_date"]
-ecomsa = data["ECOMSA"]
-
-
-plt.plot(date)
-
-print(data,ecomsa)
+sns.set_theme()
+dataset = pd.read_excel("ecomretailfixed.xls")
+date = dataset["observation_date"]
+ecomsa = dataset["ECOMSA"]
+sns.displot(dataset)
+plt.show()
+# sns.barplot(x=date,y=ecomsa)
+# plt.show()
+plt.savefig('saved_figure.jpg')
+print(date)
