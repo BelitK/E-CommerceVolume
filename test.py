@@ -1,14 +1,24 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-sns.set_theme()
-dataset = pd.read_excel("ecomretailfixed.xls")
-date = dataset["observation_date"]
-ecomsa = dataset["ECOMSA"]
-sns.displot(dataset)
-plt.show()
-# sns.barplot(x=date,y=ecomsa)
+import pandas as pd
+import matplotlib
+import matplotlib.pyplot as plt
+
+
+#american ecommerce data
+dataset_A = pd.read_excel("ecomretailfixed.xls")
+dataset_metal = pd.read_excel("External_Data.xls")
+date_A = dataset_A["observation_date"]
+ecomsa_A = dataset_A["ECOMSA"]
+#europe ecommerse data
+dataset_E = pd.read_csv("isoc_ec_eseln2.tsv",sep='\t')
+date_E = dataset_A["observation_date"]
+ecomsa_E = dataset_A["ECOMSA"]
+
+
+# plt.plot(date_A,ecomsa_A)
 # plt.show()
-plt.savefig('saved_figure.jpg')
-print(date)
+plt.plot(date_E,ecomsa_E)
+plt.show()
+print(dataset_metal)
+
+
