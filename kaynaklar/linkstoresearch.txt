@@ -1,0 +1,19 @@
+https://data.worldbank.org/country/turkey
+https://www.kaggle.com/huseyinkilic/turkeys-mobile-banking-user-commentary-analysis
+----------------------------------------
+https://bkm.com.tr/en/e-commerce-transactions/(turkey)
+https://bkm.com.tr/en/secilen-aya-ait-sektorel-gelisim/?filter_year=2020&filter_month=1&List=List
+-----------------------------------------------
+https://github.com/Glorf/recipenlg
+----------------------------
+https://fred.stlouisfed.org/tags/series?t=e-commerce(usa)
+
+------------------------
+https://ec.europa.eu/eurostat/statistics-explained/index.php?title=E-commerce_statistics(europe)
+----------------------------------
+
+http://blog.sanalmimarlar.com/tag/e-ticaret-hacmi/
+https://www.digitaltalks.org/2020/09/13/bkm-2020-yili-agustos-ayi-verilerini-acikladi/ (makale icin)
+
+https://www.researchgate.net/publication/327348324_Turkiye%27de_E-Ticaret_Sektorunun_Yillara_Gore_Gelisimi
+

@@ -15,6 +15,7 @@ for price in ecomsa_A:
 # europe ecommerse data
 date_E = dataset_turkey["observation_date"]
 ecomsa_E = dataset_turkey["ECOMSA"]
+print(ecomsa_E)
 
 plt.plot(date_A,to_tl)
 plt.plot(date_E,ecomsa_E)
