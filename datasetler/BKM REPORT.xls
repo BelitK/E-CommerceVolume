@@ -1,0 +1,3436 @@
+            <style>
+            body{
+	text-align:center;
+}
+
+#anaKapsul{
+	margin:0 auto;
+	width:100%;
+}
+
+#anaKapsul p{
+	margin:0;
+}
+
+h1{
+	font:bold 14px 'AvenirNext', Tahoma, Geneva, sans-serif;
+	color: #8f8f8f;
+	margin:0;
+	padding:0;
+}
+
+select{
+	font:11px 'AvenirNext', Tahoma, Geneva, sans-serif;
+}
+
+table{
+	width:100%;
+	font: 12px 'AvenirNext', Tahoma, Geneva, sans-serif;
+	color:#000;
+	border-bottom: 3px solid #ccc;
+}
+
+table th{
+    border: 1px solid #ccc;
+    padding: 14px !important;
+    text-align: center;
+    font: 14px "AvenirNext",Tahoma,Geneva,sans-serif;
+}
+
+
+
+table tr.odd{
+	background-color:#FFF;
+
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+a{
+	color:#878582;
+	font:11px 'AvenirNext', Tahoma, Geneva, sans-serif;
+}
+
+/* cercevesi tablo */
+
+table.bos{
+	border:none;
+}
+
+table.bos td, table.bos th{
+	border:none;
+}
+
+table.bos table td {
+    border: 1px solid #ccc;
+
+}
+
+table td .buton{
+	background: #ff6b3a;
+	font: bold 10px 'AvenirNext', Tahoma, Geneva, sans-serif-webkit-body;
+	border:none;
+	color:#fff;
+    cursor:hand;
+    cursor: pointer;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+td.excel a{
+	text-decoration:none;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+
+table td {
+    border: 1px solid #ccc;
+    padding: 14px !important;
+    text-align: center;
+    font: 12px "AvenirNext",Tahoma,Geneva,sans-serif;
+    white-space: nowrap;
+}
+
+.main_title {
+    color: #FFF;
+    background-color: #8F8F8F;
+    text-align: center;
+    padding: 14px;
+    vertical-align: middle;
+    font-weight:bold;
+}
+
+.sub_title {
+    background-color: #afafaf;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+		font-weight: bold;
+}
+
+.sub_sub_title {
+    background-color: #F6F6F6;
+    color: #717170;
+    text-align: left;
+    vertical-align: middle;
+		font-weight: bold;
+}
+
+.content_middle {
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+}
+
+.content_left {
+    background-color: #FFF;
+    color: #000;
+    text-align: left;
+}
+
+.empty_cell {
+    border: none;
+}
+
+table.bos table td.excel {
+    border:none;
+}
+
+table tr.yil td {
+	background: none repeat scroll 0 0 #8f8f8f;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+.donem .sub_sub_title {
+    background-color: #f0f0f0;
+    color: #9E0E23;
+    font-weight: bold;
+}
+.donem .content_left {
+   background-color: #f0f0f0;
+    color: #9E0E23;
+    font-weight:bold;
+}
+             table td {
+                border: 1px solid #ccc;
+                padding: 14px !important;
+                text-align: center;
+                font: 11px "AvenirNext",Tahoma,Geneva,sans-serif;
+            }
+        </style>
+    </head>
+<body>
+  <div id="anaKapsul">
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2020 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+            
+                                                                        <tr >
+                  <td class="sub_sub_title">JANUARY</td>
+                  <td class="content_left">56.929.719</td>
+                  <td class="content_left">7.670.709</td>
+                  <td class="content_left">64.600.428</td>
+                  <td class="content_left">56.929.719</td>
+                  <td class="content_left">1.315.976</td>
+                  <td class="content_left">58.245.695</td>
+
+                  <td class="content_left">16.177,75</td>
+                  <td class="content_left">1.141,69</td>
+                  <td class="content_left">17.319,44</td>
+                  <td class="content_left">16.177,75</td>
+                  <td class="content_left">1.824,48</td>
+                  <td class="content_left">18.002,23</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">FEBRUARY</td>
+                  <td class="content_left">56.390.324</td>
+                  <td class="content_left">7.299.216</td>
+                  <td class="content_left">63.689.540</td>
+                  <td class="content_left">56.390.324</td>
+                  <td class="content_left">1.255.009</td>
+                  <td class="content_left">57.645.333</td>
+
+                  <td class="content_left">15.190,83</td>
+                  <td class="content_left">1.056,53</td>
+                  <td class="content_left">16.247,36</td>
+                  <td class="content_left">15.190,83</td>
+                  <td class="content_left">1.765,46</td>
+                  <td class="content_left">16.956,30</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MARCH</td>
+                  <td class="content_left">57.324.334</td>
+                  <td class="content_left">8.817.244</td>
+                  <td class="content_left">66.141.578</td>
+                  <td class="content_left">57.324.334</td>
+                  <td class="content_left">783.759</td>
+                  <td class="content_left">58.108.093</td>
+
+                  <td class="content_left">15.514,93</td>
+                  <td class="content_left">946,07</td>
+                  <td class="content_left">16.460,99</td>
+                  <td class="content_left">15.514,93</td>
+                  <td class="content_left">838,13</td>
+                  <td class="content_left">16.353,06</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">1st QUARTER</td>
+                  <td class="content_left">170.644.377</td>
+                  <td class="content_left">23.787.169</td>
+                  <td class="content_left">194.431.546</td>
+                  <td class="content_left">170.644.377</td>
+                  <td class="content_left">3.354.744</td>
+                  <td class="content_left">173.999.121</td>
+
+                  <td class="content_left">46.883,51</td>
+                  <td class="content_left">3.144,28</td>
+                  <td class="content_left">50.027,79</td>
+                  <td class="content_left">46.883,51</td>
+                  <td class="content_left">4.428,07</td>
+                  <td class="content_left">51.311,58</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">APRIL</td>
+                  <td class="content_left">55.286.525</td>
+                  <td class="content_left">10.093.294</td>
+                  <td class="content_left">65.379.819</td>
+                  <td class="content_left">55.286.525</td>
+                  <td class="content_left">538.184</td>
+                  <td class="content_left">55.824.709</td>
+
+                  <td class="content_left">15.713,68</td>
+                  <td class="content_left">868,82</td>
+                  <td class="content_left">16.582,49</td>
+                  <td class="content_left">15.713,68</td>
+                  <td class="content_left">277,24</td>
+                  <td class="content_left">15.990,92</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MAY</td>
+                  <td class="content_left">65.464.191</td>
+                  <td class="content_left">11.798.933</td>
+                  <td class="content_left">77.263.124</td>
+                  <td class="content_left">65.464.191</td>
+                  <td class="content_left">762.944</td>
+                  <td class="content_left">66.227.135</td>
+
+                  <td class="content_left">18.654,66</td>
+                  <td class="content_left">1.005,65</td>
+                  <td class="content_left">19.660,32</td>
+                  <td class="content_left">18.654,66</td>
+                  <td class="content_left">494,76</td>
+                  <td class="content_left">19.149,42</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">JUNE</td>
+                  <td class="content_left">65.031.399</td>
+                  <td class="content_left">10.141.098</td>
+                  <td class="content_left">75.172.497</td>
+                  <td class="content_left">65.031.399</td>
+                  <td class="content_left">789.881</td>
+                  <td class="content_left">65.821.280</td>
+
+                  <td class="content_left">19.391,64</td>
+                  <td class="content_left">1.017,94</td>
+                  <td class="content_left">20.409,57</td>
+                  <td class="content_left">19.391,64</td>
+                  <td class="content_left">764,72</td>
+                  <td class="content_left">20.156,36</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">2nd QUARTER</td>
+                  <td class="content_left">185.782.115</td>
+                  <td class="content_left">32.033.325</td>
+                  <td class="content_left">217.815.440</td>
+                  <td class="content_left">185.782.115</td>
+                  <td class="content_left">2.091.009</td>
+                  <td class="content_left">187.873.124</td>
+
+                  <td class="content_left">53.759,97</td>
+                  <td class="content_left">2.892,41</td>
+                  <td class="content_left">56.652,38</td>
+                  <td class="content_left">53.759,97</td>
+                  <td class="content_left">1.536,73</td>
+                  <td class="content_left">55.296,70</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">JULY</td>
+                  <td class="content_left">72.569.953</td>
+                  <td class="content_left">10.051.202</td>
+                  <td class="content_left">82.621.155</td>
+                  <td class="content_left">72.569.953</td>
+                  <td class="content_left">1.167.407</td>
+                  <td class="content_left">73.737.360</td>
+
+                  <td class="content_left">22.981,11</td>
+                  <td class="content_left">1.113,34</td>
+                  <td class="content_left">24.094,45</td>
+                  <td class="content_left">22.981,11</td>
+                  <td class="content_left">1.414,03</td>
+                  <td class="content_left">24.395,13</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">AUGUST</td>
+                  <td class="content_left">69.053.661</td>
+                  <td class="content_left">10.014.368</td>
+                  <td class="content_left">79.068.029</td>
+                  <td class="content_left">69.053.661</td>
+                  <td class="content_left">1.319.260</td>
+                  <td class="content_left">70.372.921</td>
+
+                  <td class="content_left">21.277,52</td>
+                  <td class="content_left">1.120,96</td>
+                  <td class="content_left">22.398,48</td>
+                  <td class="content_left">21.277,52</td>
+                  <td class="content_left">1.503,72</td>
+                  <td class="content_left">22.781,24</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">SEPTEMBER</td>
+                  <td class="content_left">76.812.306</td>
+                  <td class="content_left">10.345.518</td>
+                  <td class="content_left">87.157.824</td>
+                  <td class="content_left">76.812.306</td>
+                  <td class="content_left">1.263.775</td>
+                  <td class="content_left">78.076.081</td>
+
+                  <td class="content_left">23.671,87</td>
+                  <td class="content_left">1.192,52</td>
+                  <td class="content_left">24.864,39</td>
+                  <td class="content_left">23.671,87</td>
+                  <td class="content_left">1.428,96</td>
+                  <td class="content_left">25.100,83</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">3rd QUARTER</td>
+                  <td class="content_left">218.435.920</td>
+                  <td class="content_left">30.411.088</td>
+                  <td class="content_left">248.847.008</td>
+                  <td class="content_left">218.435.920</td>
+                  <td class="content_left">3.750.442</td>
+                  <td class="content_left">222.186.362</td>
+
+                  <td class="content_left">67.930,49</td>
+                  <td class="content_left">3.426,82</td>
+                  <td class="content_left">71.357,32</td>
+                  <td class="content_left">67.930,49</td>
+                  <td class="content_left">4.346,70</td>
+                  <td class="content_left">72.277,20</td>
+
+                </tr>
+                                                    <tr class="yil">
+              <td class="sub_sub_title">2020 YEAR</td>
+              <td class="content_left">574.862.412</td>
+              <td class="content_left">86.231.582</td>
+              <td class="content_left">661.093.994</td>
+              <td class="content_left">574.862.412</td>
+              <td class="content_left">9.196.195</td>
+              <td class="content_left">584.058.607</td>
+
+              <td class="content_left">168.573,98</td>
+              <td class="content_left">9.463,51</td>
+              <td class="content_left">178.037,48</td>
+              <td class="content_left">168.573,98</td>
+              <td class="content_left">10.311,50</td>
+              <td class="content_left">178.885,48</td>
+            </tr>
+            <tr>
+              <td colspan="13" height="15"></td>
+            </tr>
+          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2019 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+            
+                                                                        <tr >
+                  <td class="sub_sub_title">JANUARY</td>
+                  <td class="content_left">43.705.694</td>
+                  <td class="content_left">7.705.273</td>
+                  <td class="content_left">51.410.967</td>
+                  <td class="content_left">43.705.694</td>
+                  <td class="content_left">1.299.186</td>
+                  <td class="content_left">45.004.880</td>
+
+                  <td class="content_left">11.738,28</td>
+                  <td class="content_left">913,39</td>
+                  <td class="content_left">12.651,67</td>
+                  <td class="content_left">11.738,28</td>
+                  <td class="content_left">1.695,21</td>
+                  <td class="content_left">13.433,49</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">FEBRUARY</td>
+                  <td class="content_left">42.006.262</td>
+                  <td class="content_left">7.241.606</td>
+                  <td class="content_left">49.247.868</td>
+                  <td class="content_left">42.006.262</td>
+                  <td class="content_left">1.179.687</td>
+                  <td class="content_left">43.185.949</td>
+
+                  <td class="content_left">10.780,84</td>
+                  <td class="content_left">833,67</td>
+                  <td class="content_left">11.614,52</td>
+                  <td class="content_left">10.780,84</td>
+                  <td class="content_left">1.616,66</td>
+                  <td class="content_left">12.397,50</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MARCH</td>
+                  <td class="content_left">46.708.817</td>
+                  <td class="content_left">8.222.415</td>
+                  <td class="content_left">54.931.232</td>
+                  <td class="content_left">46.708.817</td>
+                  <td class="content_left">1.422.928</td>
+                  <td class="content_left">48.131.745</td>
+
+                  <td class="content_left">12.849,55</td>
+                  <td class="content_left">993,89</td>
+                  <td class="content_left">13.843,44</td>
+                  <td class="content_left">12.849,55</td>
+                  <td class="content_left">1.979,63</td>
+                  <td class="content_left">14.829,18</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">1st QUARTER</td>
+                  <td class="content_left">132.420.773</td>
+                  <td class="content_left">23.169.294</td>
+                  <td class="content_left">155.590.067</td>
+                  <td class="content_left">132.420.773</td>
+                  <td class="content_left">3.901.801</td>
+                  <td class="content_left">136.322.574</td>
+
+                  <td class="content_left">35.368,67</td>
+                  <td class="content_left">2.740,95</td>
+                  <td class="content_left">38.109,63</td>
+                  <td class="content_left">35.368,67</td>
+                  <td class="content_left">5.291,51</td>
+                  <td class="content_left">40.660,18</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">APRIL</td>
+                  <td class="content_left">44.666.992</td>
+                  <td class="content_left">7.911.892</td>
+                  <td class="content_left">52.578.884</td>
+                  <td class="content_left">44.666.992</td>
+                  <td class="content_left">1.502.267</td>
+                  <td class="content_left">46.169.259</td>
+
+                  <td class="content_left">12.135,27</td>
+                  <td class="content_left">975,53</td>
+                  <td class="content_left">13.110,80</td>
+                  <td class="content_left">12.135,27</td>
+                  <td class="content_left">2.050,00</td>
+                  <td class="content_left">14.185,27</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MAY</td>
+                  <td class="content_left">50.757.674</td>
+                  <td class="content_left">8.116.691</td>
+                  <td class="content_left">58.874.365</td>
+                  <td class="content_left">50.757.674</td>
+                  <td class="content_left">1.722.609</td>
+                  <td class="content_left">52.480.283</td>
+
+                  <td class="content_left">14.494,35</td>
+                  <td class="content_left">1.075,99</td>
+                  <td class="content_left">15.570,34</td>
+                  <td class="content_left">14.494,35</td>
+                  <td class="content_left">2.277,83</td>
+                  <td class="content_left">16.772,18</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">JUNE</td>
+                  <td class="content_left">43.131.473</td>
+                  <td class="content_left">7.602.514</td>
+                  <td class="content_left">50.733.987</td>
+                  <td class="content_left">43.131.473</td>
+                  <td class="content_left">1.725.674</td>
+                  <td class="content_left">44.857.147</td>
+
+                  <td class="content_left">12.185,86</td>
+                  <td class="content_left">944,44</td>
+                  <td class="content_left">13.130,30</td>
+                  <td class="content_left">12.185,86</td>
+                  <td class="content_left">2.301,08</td>
+                  <td class="content_left">14.486,94</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">2nd QUARTER</td>
+                  <td class="content_left">138.556.139</td>
+                  <td class="content_left">23.631.097</td>
+                  <td class="content_left">162.187.236</td>
+                  <td class="content_left">138.556.139</td>
+                  <td class="content_left">4.950.550</td>
+                  <td class="content_left">143.506.689</td>
+
+                  <td class="content_left">38.815,48</td>
+                  <td class="content_left">2.995,96</td>
+                  <td class="content_left">41.811,44</td>
+                  <td class="content_left">38.815,48</td>
+                  <td class="content_left">6.628,91</td>
+                  <td class="content_left">45.444,39</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">JULY</td>
+                  <td class="content_left">49.733.839</td>
+                  <td class="content_left">7.875.476</td>
+                  <td class="content_left">57.609.315</td>
+                  <td class="content_left">49.733.839</td>
+                  <td class="content_left">1.942.209</td>
+                  <td class="content_left">51.676.048</td>
+
+                  <td class="content_left">15.907,13</td>
+                  <td class="content_left">1.061,49</td>
+                  <td class="content_left">16.968,62</td>
+                  <td class="content_left">15.907,13</td>
+                  <td class="content_left">2.572,73</td>
+                  <td class="content_left">18.479,86</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">AUGUST</td>
+                  <td class="content_left">45.531.577</td>
+                  <td class="content_left">6.692.268</td>
+                  <td class="content_left">52.223.845</td>
+                  <td class="content_left">45.531.577</td>
+                  <td class="content_left">1.851.279</td>
+                  <td class="content_left">47.382.856</td>
+
+                  <td class="content_left">13.900,51</td>
+                  <td class="content_left">991,21</td>
+                  <td class="content_left">14.891,72</td>
+                  <td class="content_left">13.900,51</td>
+                  <td class="content_left">2.170,85</td>
+                  <td class="content_left">16.071,36</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">SEPTEMBER</td>
+                  <td class="content_left">49.871.206</td>
+                  <td class="content_left">6.513.400</td>
+                  <td class="content_left">56.384.606</td>
+                  <td class="content_left">49.871.206</td>
+                  <td class="content_left">1.757.508</td>
+                  <td class="content_left">51.628.714</td>
+
+                  <td class="content_left">14.791,15</td>
+                  <td class="content_left">974,62</td>
+                  <td class="content_left">15.765,76</td>
+                  <td class="content_left">14.791,15</td>
+                  <td class="content_left">2.135,43</td>
+                  <td class="content_left">16.926,58</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">3rd QUARTER</td>
+                  <td class="content_left">145.136.622</td>
+                  <td class="content_left">21.081.144</td>
+                  <td class="content_left">166.217.766</td>
+                  <td class="content_left">145.136.622</td>
+                  <td class="content_left">5.550.996</td>
+                  <td class="content_left">150.687.618</td>
+
+                  <td class="content_left">44.598,79</td>
+                  <td class="content_left">3.027,32</td>
+                  <td class="content_left">47.626,10</td>
+                  <td class="content_left">44.598,79</td>
+                  <td class="content_left">6.879,01</td>
+                  <td class="content_left">51.477,80</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">OCTOBER</td>
+                  <td class="content_left">53.575.281</td>
+                  <td class="content_left">7.284.589</td>
+                  <td class="content_left">60.859.870</td>
+                  <td class="content_left">53.575.281</td>
+                  <td class="content_left">1.460.575</td>
+                  <td class="content_left">55.035.856</td>
+
+                  <td class="content_left">14.622,28</td>
+                  <td class="content_left">1.054,22</td>
+                  <td class="content_left">15.676,49</td>
+                  <td class="content_left">14.622,28</td>
+                  <td class="content_left">1.891,31</td>
+                  <td class="content_left">16.513,59</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">NOVEMBER</td>
+                  <td class="content_left">62.848.667</td>
+                  <td class="content_left">7.508.885</td>
+                  <td class="content_left">70.357.552</td>
+                  <td class="content_left">62.848.667</td>
+                  <td class="content_left">1.306.346</td>
+                  <td class="content_left">64.155.013</td>
+
+                  <td class="content_left">17.368,36</td>
+                  <td class="content_left">1.095,78</td>
+                  <td class="content_left">18.464,14</td>
+                  <td class="content_left">17.368,36</td>
+                  <td class="content_left">1.562,79</td>
+                  <td class="content_left">18.931,16</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">DECEMBER</td>
+                  <td class="content_left">56.128.028</td>
+                  <td class="content_left">7.743.539</td>
+                  <td class="content_left">63.871.567</td>
+                  <td class="content_left">56.128.028</td>
+                  <td class="content_left">1.237.016</td>
+                  <td class="content_left">57.365.044</td>
+
+                  <td class="content_left">15.491,57</td>
+                  <td class="content_left">1.104,78</td>
+                  <td class="content_left">16.596,36</td>
+                  <td class="content_left">15.491,57</td>
+                  <td class="content_left">1.591,79</td>
+                  <td class="content_left">17.083,37</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">4th QUARTER</td>
+                  <td class="content_left">172.551.976</td>
+                  <td class="content_left">22.537.013</td>
+                  <td class="content_left">195.088.989</td>
+                  <td class="content_left">172.551.976</td>
+                  <td class="content_left">4.003.937</td>
+                  <td class="content_left">176.555.913</td>
+
+                  <td class="content_left">47.482,22</td>
+                  <td class="content_left">3.254,78</td>
+                  <td class="content_left">50.736,99</td>
+                  <td class="content_left">47.482,22</td>
+                  <td class="content_left">5.045,90</td>
+                  <td class="content_left">52.528,12</td>
+
+                </tr>
+                                                    <tr class="yil">
+              <td class="sub_sub_title">2019 YEAR</td>
+              <td class="content_left">588.665.510</td>
+              <td class="content_left">90.418.548</td>
+              <td class="content_left">679.084.058</td>
+              <td class="content_left">588.665.510</td>
+              <td class="content_left">18.407.284</td>
+              <td class="content_left">607.072.794</td>
+
+              <td class="content_left">166.265,15</td>
+              <td class="content_left">12.019,01</td>
+              <td class="content_left">178.284,16</td>
+              <td class="content_left">166.265,15</td>
+              <td class="content_left">23.845,33</td>
+              <td class="content_left">190.110,48</td>
+            </tr>
+            <tr>
+              <td colspan="13" height="15"></td>
+            </tr>
+          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2018 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+            
+                                                                        <tr >
+                  <td class="sub_sub_title">JANUARY</td>
+                  <td class="content_left">33.152.476</td>
+                  <td class="content_left">6.720.805</td>
+                  <td class="content_left">39.873.281</td>
+                  <td class="content_left">33.152.476</td>
+                  <td class="content_left">745.788</td>
+                  <td class="content_left">33.898.264</td>
+
+                  <td class="content_left">9.186,77</td>
+                  <td class="content_left">778,22</td>
+                  <td class="content_left">9.965,00</td>
+                  <td class="content_left">9.186,77</td>
+                  <td class="content_left">815,35</td>
+                  <td class="content_left">10.002,12</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">FEBRUARY</td>
+                  <td class="content_left">30.151.395</td>
+                  <td class="content_left">6.249.828</td>
+                  <td class="content_left">36.401.223</td>
+                  <td class="content_left">30.151.395</td>
+                  <td class="content_left">734.001</td>
+                  <td class="content_left">30.885.396</td>
+
+                  <td class="content_left">7.647,95</td>
+                  <td class="content_left">692,07</td>
+                  <td class="content_left">8.340,01</td>
+                  <td class="content_left">7.647,95</td>
+                  <td class="content_left">833,64</td>
+                  <td class="content_left">8.481,58</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MARCH</td>
+                  <td class="content_left">33.662.595</td>
+                  <td class="content_left">7.673.729</td>
+                  <td class="content_left">41.336.324</td>
+                  <td class="content_left">33.662.595</td>
+                  <td class="content_left">962.337</td>
+                  <td class="content_left">34.624.932</td>
+
+                  <td class="content_left">8.997,11</td>
+                  <td class="content_left">800,67</td>
+                  <td class="content_left">9.797,79</td>
+                  <td class="content_left">8.997,11</td>
+                  <td class="content_left">1.089,34</td>
+                  <td class="content_left">10.086,46</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">1st QUARTER</td>
+                  <td class="content_left">96.966.466</td>
+                  <td class="content_left">20.644.362</td>
+                  <td class="content_left">117.610.828</td>
+                  <td class="content_left">96.966.466</td>
+                  <td class="content_left">2.442.126</td>
+                  <td class="content_left">99.408.592</td>
+
+                  <td class="content_left">25.831,83</td>
+                  <td class="content_left">2.270,96</td>
+                  <td class="content_left">28.102,79</td>
+                  <td class="content_left">25.831,83</td>
+                  <td class="content_left">2.738,33</td>
+                  <td class="content_left">28.570,16</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">APRIL</td>
+                  <td class="content_left">31.741.742</td>
+                  <td class="content_left">6.434.402</td>
+                  <td class="content_left">38.176.144</td>
+                  <td class="content_left">31.741.742</td>
+                  <td class="content_left">1.048.980</td>
+                  <td class="content_left">32.790.722</td>
+
+                  <td class="content_left">8.884,65</td>
+                  <td class="content_left">747,39</td>
+                  <td class="content_left">9.632,04</td>
+                  <td class="content_left">8.884,65</td>
+                  <td class="content_left">1.145,89</td>
+                  <td class="content_left">10.030,54</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MAY</td>
+                  <td class="content_left">35.318.678</td>
+                  <td class="content_left">6.839.440</td>
+                  <td class="content_left">42.158.118</td>
+                  <td class="content_left">35.318.678</td>
+                  <td class="content_left">1.184.347</td>
+                  <td class="content_left">36.503.025</td>
+
+                  <td class="content_left">10.188,17</td>
+                  <td class="content_left">810,32</td>
+                  <td class="content_left">10.998,49</td>
+                  <td class="content_left">10.188,17</td>
+                  <td class="content_left">1.301,07</td>
+                  <td class="content_left">11.489,24</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">JUNE</td>
+                  <td class="content_left">32.206.973</td>
+                  <td class="content_left">6.806.814</td>
+                  <td class="content_left">39.013.787</td>
+                  <td class="content_left">32.206.973</td>
+                  <td class="content_left">1.230.314</td>
+                  <td class="content_left">33.437.287</td>
+
+                  <td class="content_left">9.363,11</td>
+                  <td class="content_left">771,97</td>
+                  <td class="content_left">10.135,08</td>
+                  <td class="content_left">9.363,11</td>
+                  <td class="content_left">1.435,07</td>
+                  <td class="content_left">10.798,18</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">2nd QUARTER</td>
+                  <td class="content_left">99.267.393</td>
+                  <td class="content_left">20.080.656</td>
+                  <td class="content_left">119.348.049</td>
+                  <td class="content_left">99.267.393</td>
+                  <td class="content_left">3.463.641</td>
+                  <td class="content_left">102.731.034</td>
+
+                  <td class="content_left">28.435,92</td>
+                  <td class="content_left">2.329,68</td>
+                  <td class="content_left">30.765,61</td>
+                  <td class="content_left">28.435,92</td>
+                  <td class="content_left">3.882,03</td>
+                  <td class="content_left">32.317,95</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">JULY</td>
+                  <td class="content_left">36.543.631</td>
+                  <td class="content_left">6.703.100</td>
+                  <td class="content_left">43.246.731</td>
+                  <td class="content_left">36.543.631</td>
+                  <td class="content_left">1.362.187</td>
+                  <td class="content_left">37.905.818</td>
+
+                  <td class="content_left">12.114,60</td>
+                  <td class="content_left">831,56</td>
+                  <td class="content_left">12.946,16</td>
+                  <td class="content_left">12.114,60</td>
+                  <td class="content_left">1.644,88</td>
+                  <td class="content_left">13.759,48</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">AUGUST</td>
+                  <td class="content_left">32.438.075</td>
+                  <td class="content_left">6.482.358</td>
+                  <td class="content_left">38.920.433</td>
+                  <td class="content_left">32.438.075</td>
+                  <td class="content_left">1.395.952</td>
+                  <td class="content_left">33.834.027</td>
+
+                  <td class="content_left">10.764,72</td>
+                  <td class="content_left">860,82</td>
+                  <td class="content_left">11.625,54</td>
+                  <td class="content_left">10.764,72</td>
+                  <td class="content_left">1.792,57</td>
+                  <td class="content_left">12.557,29</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">SEPTEMBER</td>
+                  <td class="content_left">37.102.708</td>
+                  <td class="content_left">6.228.386</td>
+                  <td class="content_left">43.331.094</td>
+                  <td class="content_left">37.102.708</td>
+                  <td class="content_left">1.288.412</td>
+                  <td class="content_left">38.391.120</td>
+
+                  <td class="content_left">11.574,31</td>
+                  <td class="content_left">859,21</td>
+                  <td class="content_left">12.433,52</td>
+                  <td class="content_left">11.574,31</td>
+                  <td class="content_left">1.776,38</td>
+                  <td class="content_left">13.350,69</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">3rd QUARTER</td>
+                  <td class="content_left">106.084.414</td>
+                  <td class="content_left">19.413.844</td>
+                  <td class="content_left">125.498.258</td>
+                  <td class="content_left">106.084.414</td>
+                  <td class="content_left">4.046.551</td>
+                  <td class="content_left">110.130.965</td>
+
+                  <td class="content_left">34.453,63</td>
+                  <td class="content_left">2.551,59</td>
+                  <td class="content_left">37.005,22</td>
+                  <td class="content_left">34.453,63</td>
+                  <td class="content_left">5.213,83</td>
+                  <td class="content_left">39.667,46</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">OCTOBER</td>
+                  <td class="content_left">40.875.602</td>
+                  <td class="content_left">7.046.313</td>
+                  <td class="content_left">47.921.915</td>
+                  <td class="content_left">40.875.602</td>
+                  <td class="content_left">1.184.030</td>
+                  <td class="content_left">42.059.632</td>
+
+                  <td class="content_left">11.016,19</td>
+                  <td class="content_left">880,00</td>
+                  <td class="content_left">11.896,19</td>
+                  <td class="content_left">11.016,19</td>
+                  <td class="content_left">1.579,20</td>
+                  <td class="content_left">12.595,38</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">NOVEMBER</td>
+                  <td class="content_left">45.150.043</td>
+                  <td class="content_left">7.570.478</td>
+                  <td class="content_left">52.720.521</td>
+                  <td class="content_left">45.150.043</td>
+                  <td class="content_left">1.064.781</td>
+                  <td class="content_left">46.214.824</td>
+
+                  <td class="content_left">12.186,70</td>
+                  <td class="content_left">898,63</td>
+                  <td class="content_left">13.085,33</td>
+                  <td class="content_left">12.186,70</td>
+                  <td class="content_left">1.300,64</td>
+                  <td class="content_left">13.487,34</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">DECEMBER</td>
+                  <td class="content_left">42.460.704</td>
+                  <td class="content_left">7.586.627</td>
+                  <td class="content_left">50.047.331</td>
+                  <td class="content_left">42.460.704</td>
+                  <td class="content_left">1.141.502</td>
+                  <td class="content_left">43.602.206</td>
+
+                  <td class="content_left">10.921,42</td>
+                  <td class="content_left">850,21</td>
+                  <td class="content_left">11.771,63</td>
+                  <td class="content_left">10.921,42</td>
+                  <td class="content_left">1.351,24</td>
+                  <td class="content_left">12.272,67</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">4th QUARTER</td>
+                  <td class="content_left">128.486.349</td>
+                  <td class="content_left">22.203.418</td>
+                  <td class="content_left">150.689.767</td>
+                  <td class="content_left">128.486.349</td>
+                  <td class="content_left">3.390.313</td>
+                  <td class="content_left">131.876.662</td>
+
+                  <td class="content_left">34.124,31</td>
+                  <td class="content_left">2.628,84</td>
+                  <td class="content_left">36.753,15</td>
+                  <td class="content_left">34.124,31</td>
+                  <td class="content_left">4.231,09</td>
+                  <td class="content_left">38.355,39</td>
+
+                </tr>
+                                                    <tr class="yil">
+              <td class="sub_sub_title">2018 YEAR</td>
+              <td class="content_left">430.804.622</td>
+              <td class="content_left">82.342.280</td>
+              <td class="content_left">513.146.902</td>
+              <td class="content_left">430.804.622</td>
+              <td class="content_left">13.342.631</td>
+              <td class="content_left">444.147.253</td>
+
+              <td class="content_left">122.845,70</td>
+              <td class="content_left">9.781,08</td>
+              <td class="content_left">132.626,77</td>
+              <td class="content_left">122.845,70</td>
+              <td class="content_left">16.065,27</td>
+              <td class="content_left">138.910,97</td>
+            </tr>
+            <tr>
+              <td colspan="13" height="15"></td>
+            </tr>
+          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2017 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+            
+                                                                        <tr >
+                  <td class="sub_sub_title">JANUARY</td>
+                  <td class="content_left">24.973.505</td>
+                  <td class="content_left">4.498.294</td>
+                  <td class="content_left">29.471.799</td>
+                  <td class="content_left">24.973.505</td>
+                  <td class="content_left">509.504</td>
+                  <td class="content_left">25.483.009</td>
+
+                  <td class="content_left">6.713,78</td>
+                  <td class="content_left">430,26</td>
+                  <td class="content_left">7.144,04</td>
+                  <td class="content_left">6.713,78</td>
+                  <td class="content_left">413,62</td>
+                  <td class="content_left">7.127,40</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">FEBRUARY</td>
+                  <td class="content_left">22.787.744</td>
+                  <td class="content_left">4.052.181</td>
+                  <td class="content_left">26.839.925</td>
+                  <td class="content_left">22.787.744</td>
+                  <td class="content_left">553.720</td>
+                  <td class="content_left">23.341.464</td>
+
+                  <td class="content_left">5.673,40</td>
+                  <td class="content_left">442,65</td>
+                  <td class="content_left">6.116,04</td>
+                  <td class="content_left">5.673,40</td>
+                  <td class="content_left">503,43</td>
+                  <td class="content_left">6.176,83</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MARCH</td>
+                  <td class="content_left">24.877.263</td>
+                  <td class="content_left">5.007.823</td>
+                  <td class="content_left">29.885.086</td>
+                  <td class="content_left">24.877.263</td>
+                  <td class="content_left">681.376</td>
+                  <td class="content_left">25.558.639</td>
+
+                  <td class="content_left">6.748,46</td>
+                  <td class="content_left">547,02</td>
+                  <td class="content_left">7.295,48</td>
+                  <td class="content_left">6.748,46</td>
+                  <td class="content_left">643,85</td>
+                  <td class="content_left">7.392,32</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">1st QUARTER</td>
+                  <td class="content_left">72.638.512</td>
+                  <td class="content_left">13.558.298</td>
+                  <td class="content_left">86.196.810</td>
+                  <td class="content_left">72.638.512</td>
+                  <td class="content_left">1.744.600</td>
+                  <td class="content_left">74.383.112</td>
+
+                  <td class="content_left">19.135,64</td>
+                  <td class="content_left">1.419,93</td>
+                  <td class="content_left">20.555,56</td>
+                  <td class="content_left">19.135,64</td>
+                  <td class="content_left">1.560,91</td>
+                  <td class="content_left">20.696,54</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">APRIL</td>
+                  <td class="content_left">25.513.814</td>
+                  <td class="content_left">5.085.882</td>
+                  <td class="content_left">30.599.696</td>
+                  <td class="content_left">25.513.814</td>
+                  <td class="content_left">734.706</td>
+                  <td class="content_left">26.248.520</td>
+
+                  <td class="content_left">6.447,22</td>
+                  <td class="content_left">564,47</td>
+                  <td class="content_left">7.011,68</td>
+                  <td class="content_left">6.447,22</td>
+                  <td class="content_left">632,77</td>
+                  <td class="content_left">7.079,99</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MAY</td>
+                  <td class="content_left">26.681.648</td>
+                  <td class="content_left">5.276.486</td>
+                  <td class="content_left">31.958.134</td>
+                  <td class="content_left">26.681.648</td>
+                  <td class="content_left">834.599</td>
+                  <td class="content_left">27.516.247</td>
+
+                  <td class="content_left">7.775,31</td>
+                  <td class="content_left">609,31</td>
+                  <td class="content_left">8.384,62</td>
+                  <td class="content_left">7.775,31</td>
+                  <td class="content_left">717,13</td>
+                  <td class="content_left">8.492,44</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">JUNE</td>
+                  <td class="content_left">24.985.526</td>
+                  <td class="content_left">5.667.399</td>
+                  <td class="content_left">30.652.925</td>
+                  <td class="content_left">24.985.526</td>
+                  <td class="content_left">875.294</td>
+                  <td class="content_left">25.860.820</td>
+
+                  <td class="content_left">7.378,94</td>
+                  <td class="content_left">645,17</td>
+                  <td class="content_left">8.024,11</td>
+                  <td class="content_left">7.378,94</td>
+                  <td class="content_left">766,43</td>
+                  <td class="content_left">8.145,37</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">2nd QUARTER</td>
+                  <td class="content_left">77.180.988</td>
+                  <td class="content_left">16.029.767</td>
+                  <td class="content_left">93.210.755</td>
+                  <td class="content_left">77.180.988</td>
+                  <td class="content_left">2.444.599</td>
+                  <td class="content_left">79.625.587</td>
+
+                  <td class="content_left">21.601,47</td>
+                  <td class="content_left">1.818,94</td>
+                  <td class="content_left">23.420,41</td>
+                  <td class="content_left">21.601,47</td>
+                  <td class="content_left">2.116,33</td>
+                  <td class="content_left">23.717,80</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">JULY</td>
+                  <td class="content_left">27.568.546</td>
+                  <td class="content_left">5.467.007</td>
+                  <td class="content_left">33.035.553</td>
+                  <td class="content_left">27.568.546</td>
+                  <td class="content_left">987.653</td>
+                  <td class="content_left">28.556.199</td>
+
+                  <td class="content_left">9.273,93</td>
+                  <td class="content_left">625,64</td>
+                  <td class="content_left">9.899,57</td>
+                  <td class="content_left">9.273,93</td>
+                  <td class="content_left">901,23</td>
+                  <td class="content_left">10.175,16</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">AUGUST</td>
+                  <td class="content_left">26.454.797</td>
+                  <td class="content_left">5.623.569</td>
+                  <td class="content_left">32.078.366</td>
+                  <td class="content_left">26.454.797</td>
+                  <td class="content_left">978.939</td>
+                  <td class="content_left">27.433.736</td>
+
+                  <td class="content_left">8.691,99</td>
+                  <td class="content_left">655,90</td>
+                  <td class="content_left">9.347,88</td>
+                  <td class="content_left">8.691,99</td>
+                  <td class="content_left">817,45</td>
+                  <td class="content_left">9.509,44</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">SEPTEMBER</td>
+                  <td class="content_left">25.662.697</td>
+                  <td class="content_left">5.672.740</td>
+                  <td class="content_left">31.335.437</td>
+                  <td class="content_left">25.662.697</td>
+                  <td class="content_left">842.255</td>
+                  <td class="content_left">26.504.952</td>
+
+                  <td class="content_left">7.962,31</td>
+                  <td class="content_left">566,34</td>
+                  <td class="content_left">8.528,65</td>
+                  <td class="content_left">7.962,31</td>
+                  <td class="content_left">673,90</td>
+                  <td class="content_left">8.636,21</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">3rd QUARTER</td>
+                  <td class="content_left">79.686.040</td>
+                  <td class="content_left">16.763.316</td>
+                  <td class="content_left">96.449.356</td>
+                  <td class="content_left">79.686.040</td>
+                  <td class="content_left">2.808.847</td>
+                  <td class="content_left">82.494.887</td>
+
+                  <td class="content_left">25.928,22</td>
+                  <td class="content_left">1.847,88</td>
+                  <td class="content_left">27.776,10</td>
+                  <td class="content_left">25.928,22</td>
+                  <td class="content_left">2.392,58</td>
+                  <td class="content_left">28.320,80</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">OCTOBER</td>
+                  <td class="content_left">28.359.836</td>
+                  <td class="content_left">5.965.331</td>
+                  <td class="content_left">34.325.167</td>
+                  <td class="content_left">28.359.836</td>
+                  <td class="content_left">763.208</td>
+                  <td class="content_left">29.123.044</td>
+
+                  <td class="content_left">7.615,22</td>
+                  <td class="content_left">674,19</td>
+                  <td class="content_left">8.289,40</td>
+                  <td class="content_left">7.615,22</td>
+                  <td class="content_left">692,03</td>
+                  <td class="content_left">8.307,25</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">NOVEMBER</td>
+                  <td class="content_left">31.182.981</td>
+                  <td class="content_left">6.536.921</td>
+                  <td class="content_left">37.719.902</td>
+                  <td class="content_left">31.182.981</td>
+                  <td class="content_left">730.962</td>
+                  <td class="content_left">31.913.943</td>
+
+                  <td class="content_left">8.446,32</td>
+                  <td class="content_left">748,41</td>
+                  <td class="content_left">9.194,73</td>
+                  <td class="content_left">8.446,32</td>
+                  <td class="content_left">721,75</td>
+                  <td class="content_left">9.168,06</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">DECEMBER</td>
+                  <td class="content_left">31.699.654</td>
+                  <td class="content_left">6.543.415</td>
+                  <td class="content_left">38.243.069</td>
+                  <td class="content_left">31.699.654</td>
+                  <td class="content_left">643.704</td>
+                  <td class="content_left">32.343.358</td>
+
+                  <td class="content_left">8.216,30</td>
+                  <td class="content_left">803,46</td>
+                  <td class="content_left">9.019,76</td>
+                  <td class="content_left">8.216,30</td>
+                  <td class="content_left">642,77</td>
+                  <td class="content_left">8.859,07</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">4th QUARTER</td>
+                  <td class="content_left">91.242.471</td>
+                  <td class="content_left">19.045.667</td>
+                  <td class="content_left">110.288.138</td>
+                  <td class="content_left">91.242.471</td>
+                  <td class="content_left">2.137.874</td>
+                  <td class="content_left">93.380.345</td>
+
+                  <td class="content_left">24.277,83</td>
+                  <td class="content_left">2.226,06</td>
+                  <td class="content_left">26.503,90</td>
+                  <td class="content_left">24.277,83</td>
+                  <td class="content_left">2.056,55</td>
+                  <td class="content_left">26.334,38</td>
+
+                </tr>
+                                                    <tr class="yil">
+              <td class="sub_sub_title">2017 YEAR</td>
+              <td class="content_left">320.748.011</td>
+              <td class="content_left">65.397.048</td>
+              <td class="content_left">386.145.059</td>
+              <td class="content_left">320.748.011</td>
+              <td class="content_left">9.135.920</td>
+              <td class="content_left">329.883.931</td>
+
+              <td class="content_left">90.943,16</td>
+              <td class="content_left">7.312,81</td>
+              <td class="content_left">98.255,97</td>
+              <td class="content_left">90.943,16</td>
+              <td class="content_left">8.126,36</td>
+              <td class="content_left">99.069,52</td>
+            </tr>
+            <tr>
+              <td colspan="13" height="15"></td>
+            </tr>
+          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2016 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+            
+                                                                        <tr >
+                  <td class="sub_sub_title">JANUARY</td>
+                  <td class="content_left">21.585.017</td>
+                  <td class="content_left">3.981.356</td>
+                  <td class="content_left">25.566.373</td>
+                  <td class="content_left">21.585.017</td>
+                  <td class="content_left">674.890</td>
+                  <td class="content_left">22.259.907</td>
+
+                  <td class="content_left">5.066,46</td>
+                  <td class="content_left">480,12</td>
+                  <td class="content_left">5.546,58</td>
+                  <td class="content_left">5.066,46</td>
+                  <td class="content_left">382,14</td>
+                  <td class="content_left">5.448,60</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">FEBRUARY</td>
+                  <td class="content_left">20.436.710</td>
+                  <td class="content_left">3.934.457</td>
+                  <td class="content_left">24.371.167</td>
+                  <td class="content_left">20.436.710</td>
+                  <td class="content_left">464.809</td>
+                  <td class="content_left">20.901.519</td>
+
+                  <td class="content_left">4.590,60</td>
+                  <td class="content_left">422,84</td>
+                  <td class="content_left">5.013,44</td>
+                  <td class="content_left">4.590,60</td>
+                  <td class="content_left">348,30</td>
+                  <td class="content_left">4.938,91</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MARCH</td>
+                  <td class="content_left">22.375.845</td>
+                  <td class="content_left">4.287.095</td>
+                  <td class="content_left">26.662.940</td>
+                  <td class="content_left">22.375.845</td>
+                  <td class="content_left">541.047</td>
+                  <td class="content_left">22.916.892</td>
+
+                  <td class="content_left">4.981,53</td>
+                  <td class="content_left">463,42</td>
+                  <td class="content_left">5.444,95</td>
+                  <td class="content_left">4.981,53</td>
+                  <td class="content_left">396,16</td>
+                  <td class="content_left">5.377,70</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">1st QUARTER</td>
+                  <td class="content_left">64.397.572</td>
+                  <td class="content_left">12.202.908</td>
+                  <td class="content_left">76.600.480</td>
+                  <td class="content_left">64.397.572</td>
+                  <td class="content_left">1.680.746</td>
+                  <td class="content_left">66.078.318</td>
+
+                  <td class="content_left">14.638,60</td>
+                  <td class="content_left">1.366,38</td>
+                  <td class="content_left">16.004,98</td>
+                  <td class="content_left">14.638,60</td>
+                  <td class="content_left">1.126,61</td>
+                  <td class="content_left">15.765,21</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">APRIL</td>
+                  <td class="content_left">20.823.540</td>
+                  <td class="content_left">4.050.812</td>
+                  <td class="content_left">24.874.352</td>
+                  <td class="content_left">20.823.540</td>
+                  <td class="content_left">702.434</td>
+                  <td class="content_left">21.525.974</td>
+
+                  <td class="content_left">4.554,47</td>
+                  <td class="content_left">460,09</td>
+                  <td class="content_left">5.014,56</td>
+                  <td class="content_left">4.554,47</td>
+                  <td class="content_left">461,16</td>
+                  <td class="content_left">5.015,63</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MAY</td>
+                  <td class="content_left">21.825.960</td>
+                  <td class="content_left">4.353.750</td>
+                  <td class="content_left">26.179.710</td>
+                  <td class="content_left">21.825.960</td>
+                  <td class="content_left">700.759</td>
+                  <td class="content_left">22.526.719</td>
+
+                  <td class="content_left">5.368,02</td>
+                  <td class="content_left">490,26</td>
+                  <td class="content_left">5.858,29</td>
+                  <td class="content_left">5.368,02</td>
+                  <td class="content_left">454,86</td>
+                  <td class="content_left">5.822,89</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">JUNE</td>
+                  <td class="content_left">20.917.714</td>
+                  <td class="content_left">4.176.207</td>
+                  <td class="content_left">25.093.921</td>
+                  <td class="content_left">20.917.714</td>
+                  <td class="content_left">710.851</td>
+                  <td class="content_left">21.628.565</td>
+
+                  <td class="content_left">5.447,17</td>
+                  <td class="content_left">469,40</td>
+                  <td class="content_left">5.916,57</td>
+                  <td class="content_left">5.447,17</td>
+                  <td class="content_left">465,60</td>
+                  <td class="content_left">5.912,77</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">2nd QUARTER</td>
+                  <td class="content_left">63.567.214</td>
+                  <td class="content_left">12.580.769</td>
+                  <td class="content_left">76.147.983</td>
+                  <td class="content_left">63.567.214</td>
+                  <td class="content_left">2.114.044</td>
+                  <td class="content_left">65.681.258</td>
+
+                  <td class="content_left">15.369,66</td>
+                  <td class="content_left">1.419,75</td>
+                  <td class="content_left">16.789,41</td>
+                  <td class="content_left">15.369,66</td>
+                  <td class="content_left">1.381,63</td>
+                  <td class="content_left">16.751,29</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">JULY</td>
+                  <td class="content_left">19.346.080</td>
+                  <td class="content_left">3.790.408</td>
+                  <td class="content_left">23.136.488</td>
+                  <td class="content_left">19.346.080</td>
+                  <td class="content_left">688.591</td>
+                  <td class="content_left">20.034.671</td>
+
+                  <td class="content_left">5.270,10</td>
+                  <td class="content_left">385,15</td>
+                  <td class="content_left">5.655,25</td>
+                  <td class="content_left">5.270,10</td>
+                  <td class="content_left">448,54</td>
+                  <td class="content_left">5.718,65</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">AUGUST</td>
+                  <td class="content_left">22.364.239</td>
+                  <td class="content_left">4.088.895</td>
+                  <td class="content_left">26.453.134</td>
+                  <td class="content_left">22.364.239</td>
+                  <td class="content_left">773.097</td>
+                  <td class="content_left">23.137.336</td>
+
+                  <td class="content_left">6.157,22</td>
+                  <td class="content_left">449,30</td>
+                  <td class="content_left">6.606,52</td>
+                  <td class="content_left">6.157,22</td>
+                  <td class="content_left">499,32</td>
+                  <td class="content_left">6.656,54</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">SEPTEMBER</td>
+                  <td class="content_left">19.450.096</td>
+                  <td class="content_left">4.113.612</td>
+                  <td class="content_left">23.563.708</td>
+                  <td class="content_left">19.450.096</td>
+                  <td class="content_left">694.093</td>
+                  <td class="content_left">20.144.189</td>
+
+                  <td class="content_left">5.050,72</td>
+                  <td class="content_left">423,01</td>
+                  <td class="content_left">5.473,73</td>
+                  <td class="content_left">5.050,72</td>
+                  <td class="content_left">402,69</td>
+                  <td class="content_left">5.453,40</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">3rd QUARTER</td>
+                  <td class="content_left">61.160.415</td>
+                  <td class="content_left">11.992.915</td>
+                  <td class="content_left">73.153.330</td>
+                  <td class="content_left">61.160.415</td>
+                  <td class="content_left">2.155.781</td>
+                  <td class="content_left">63.316.196</td>
+
+                  <td class="content_left">16.478,04</td>
+                  <td class="content_left">1.257,47</td>
+                  <td class="content_left">17.735,51</td>
+                  <td class="content_left">16.478,04</td>
+                  <td class="content_left">1.350,55</td>
+                  <td class="content_left">17.828,59</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">OCTOBER</td>
+                  <td class="content_left">21.588.654</td>
+                  <td class="content_left">4.543.561</td>
+                  <td class="content_left">26.132.215</td>
+                  <td class="content_left">21.588.654</td>
+                  <td class="content_left">593.477</td>
+                  <td class="content_left">22.182.131</td>
+
+                  <td class="content_left">5.112,98</td>
+                  <td class="content_left">457,50</td>
+                  <td class="content_left">5.570,48</td>
+                  <td class="content_left">5.112,98</td>
+                  <td class="content_left">355,41</td>
+                  <td class="content_left">5.468,39</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">NOVEMBER</td>
+                  <td class="content_left">23.122.472</td>
+                  <td class="content_left">4.645.148</td>
+                  <td class="content_left">27.767.620</td>
+                  <td class="content_left">23.122.472</td>
+                  <td class="content_left">497.166</td>
+                  <td class="content_left">23.619.638</td>
+
+                  <td class="content_left">6.131,43</td>
+                  <td class="content_left">463,36</td>
+                  <td class="content_left">6.594,79</td>
+                  <td class="content_left">6.131,43</td>
+                  <td class="content_left">345,67</td>
+                  <td class="content_left">6.477,10</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">DECEMBER</td>
+                  <td class="content_left">22.616.595</td>
+                  <td class="content_left">4.433.236</td>
+                  <td class="content_left">27.049.831</td>
+                  <td class="content_left">22.616.595</td>
+                  <td class="content_left">475.835</td>
+                  <td class="content_left">23.092.430</td>
+
+                  <td class="content_left">5.748,17</td>
+                  <td class="content_left">440,16</td>
+                  <td class="content_left">6.188,33</td>
+                  <td class="content_left">5.748,17</td>
+                  <td class="content_left">329,76</td>
+                  <td class="content_left">6.077,93</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">4th QUARTER</td>
+                  <td class="content_left">67.327.721</td>
+                  <td class="content_left">13.621.945</td>
+                  <td class="content_left">80.949.666</td>
+                  <td class="content_left">67.327.721</td>
+                  <td class="content_left">1.566.478</td>
+                  <td class="content_left">68.894.199</td>
+
+                  <td class="content_left">16.992,58</td>
+                  <td class="content_left">1.361,02</td>
+                  <td class="content_left">18.353,60</td>
+                  <td class="content_left">16.992,58</td>
+                  <td class="content_left">1.030,85</td>
+                  <td class="content_left">18.023,43</td>
+
+                </tr>
+                                                    <tr class="yil">
+              <td class="sub_sub_title">2016 YEAR</td>
+              <td class="content_left">256.452.922</td>
+              <td class="content_left">50.398.537</td>
+              <td class="content_left">306.851.459</td>
+              <td class="content_left">256.452.922</td>
+              <td class="content_left">7.517.049</td>
+              <td class="content_left">263.969.971</td>
+
+              <td class="content_left">63.478,88</td>
+              <td class="content_left">5.404,61</td>
+              <td class="content_left">68.883,49</td>
+              <td class="content_left">63.478,88</td>
+              <td class="content_left">4.889,64</td>
+              <td class="content_left">68.368,52</td>
+            </tr>
+            <tr>
+              <td colspan="13" height="15"></td>
+            </tr>
+          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2015 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+            
+                                                                        <tr >
+                  <td class="sub_sub_title">JANUARY</td>
+                  <td class="content_left">18.895.210</td>
+                  <td class="content_left">3.668.383</td>
+                  <td class="content_left">22.563.593</td>
+                  <td class="content_left">18.895.210</td>
+                  <td class="content_left">370.901</td>
+                  <td class="content_left">19.266.111</td>
+
+                  <td class="content_left">4.207,59</td>
+                  <td class="content_left">357,19</td>
+                  <td class="content_left">4.564,78</td>
+                  <td class="content_left">4.207,59</td>
+                  <td class="content_left">291,71</td>
+                  <td class="content_left">4.499,31</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">FEBRUARY</td>
+                  <td class="content_left">16.244.158</td>
+                  <td class="content_left">3.334.735</td>
+                  <td class="content_left">19.578.893</td>
+                  <td class="content_left">16.244.158</td>
+                  <td class="content_left">368.560</td>
+                  <td class="content_left">16.612.718</td>
+
+                  <td class="content_left">3.436,29</td>
+                  <td class="content_left">314,41</td>
+                  <td class="content_left">3.750,71</td>
+                  <td class="content_left">3.436,29</td>
+                  <td class="content_left">303,24</td>
+                  <td class="content_left">3.739,53</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MARCH</td>
+                  <td class="content_left">17.835.207</td>
+                  <td class="content_left">3.374.056</td>
+                  <td class="content_left">21.209.263</td>
+                  <td class="content_left">17.835.207</td>
+                  <td class="content_left">522.444</td>
+                  <td class="content_left">18.357.651</td>
+
+                  <td class="content_left">3.862,03</td>
+                  <td class="content_left">358,56</td>
+                  <td class="content_left">4.220,58</td>
+                  <td class="content_left">3.862,03</td>
+                  <td class="content_left">523,09</td>
+                  <td class="content_left">4.385,12</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">1st QUARTER</td>
+                  <td class="content_left">52.974.575</td>
+                  <td class="content_left">10.377.174</td>
+                  <td class="content_left">63.351.749</td>
+                  <td class="content_left">52.974.575</td>
+                  <td class="content_left">1.261.905</td>
+                  <td class="content_left">54.236.480</td>
+
+                  <td class="content_left">11.505,91</td>
+                  <td class="content_left">1.030,15</td>
+                  <td class="content_left">12.536,07</td>
+                  <td class="content_left">11.505,91</td>
+                  <td class="content_left">1.118,05</td>
+                  <td class="content_left">12.623,96</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">APRIL</td>
+                  <td class="content_left">17.381.004</td>
+                  <td class="content_left">3.281.806</td>
+                  <td class="content_left">20.662.810</td>
+                  <td class="content_left">17.381.004</td>
+                  <td class="content_left">573.904</td>
+                  <td class="content_left">17.954.908</td>
+
+                  <td class="content_left">3.718,79</td>
+                  <td class="content_left">373,93</td>
+                  <td class="content_left">4.092,72</td>
+                  <td class="content_left">3.718,79</td>
+                  <td class="content_left">357,39</td>
+                  <td class="content_left">4.076,18</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MAY</td>
+                  <td class="content_left">18.013.986</td>
+                  <td class="content_left">3.302.526</td>
+                  <td class="content_left">21.316.512</td>
+                  <td class="content_left">18.013.986</td>
+                  <td class="content_left">717.693</td>
+                  <td class="content_left">18.731.679</td>
+
+                  <td class="content_left">4.082,39</td>
+                  <td class="content_left">378,76</td>
+                  <td class="content_left">4.461,15</td>
+                  <td class="content_left">4.082,39</td>
+                  <td class="content_left">389,81</td>
+                  <td class="content_left">4.472,20</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">JUNE</td>
+                  <td class="content_left">17.591.147</td>
+                  <td class="content_left">3.282.648</td>
+                  <td class="content_left">20.873.795</td>
+                  <td class="content_left">17.591.147</td>
+                  <td class="content_left">661.150</td>
+                  <td class="content_left">18.252.297</td>
+
+                  <td class="content_left">4.259,37</td>
+                  <td class="content_left">363,45</td>
+                  <td class="content_left">4.622,81</td>
+                  <td class="content_left">4.259,37</td>
+                  <td class="content_left">391,69</td>
+                  <td class="content_left">4.651,05</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">2nd QUARTER</td>
+                  <td class="content_left">52.986.137</td>
+                  <td class="content_left">9.866.980</td>
+                  <td class="content_left">62.853.117</td>
+                  <td class="content_left">52.986.137</td>
+                  <td class="content_left">1.952.747</td>
+                  <td class="content_left">54.938.884</td>
+
+                  <td class="content_left">12.060,55</td>
+                  <td class="content_left">1.116,14</td>
+                  <td class="content_left">13.176,68</td>
+                  <td class="content_left">12.060,55</td>
+                  <td class="content_left">1.138,89</td>
+                  <td class="content_left">13.199,44</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">JULY</td>
+                  <td class="content_left">19.824.537</td>
+                  <td class="content_left">3.211.675</td>
+                  <td class="content_left">23.036.212</td>
+                  <td class="content_left">19.824.537</td>
+                  <td class="content_left">1.004.623</td>
+                  <td class="content_left">20.829.160</td>
+
+                  <td class="content_left">5.156,64</td>
+                  <td class="content_left">367,20</td>
+                  <td class="content_left">5.523,84</td>
+                  <td class="content_left">5.156,64</td>
+                  <td class="content_left">507,56</td>
+                  <td class="content_left">5.664,20</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">AUGUST</td>
+                  <td class="content_left">18.077.752</td>
+                  <td class="content_left">3.149.508</td>
+                  <td class="content_left">21.227.260</td>
+                  <td class="content_left">18.077.752</td>
+                  <td class="content_left">899.594</td>
+                  <td class="content_left">18.977.346</td>
+
+                  <td class="content_left">4.668,07</td>
+                  <td class="content_left">387,01</td>
+                  <td class="content_left">5.055,08</td>
+                  <td class="content_left">4.668,07</td>
+                  <td class="content_left">455,43</td>
+                  <td class="content_left">5.123,51</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">SEPTEMBER</td>
+                  <td class="content_left">17.448.433</td>
+                  <td class="content_left">3.313.813</td>
+                  <td class="content_left">20.762.246</td>
+                  <td class="content_left">17.448.433</td>
+                  <td class="content_left">787.979</td>
+                  <td class="content_left">18.236.412</td>
+
+                  <td class="content_left">4.244,89</td>
+                  <td class="content_left">412,43</td>
+                  <td class="content_left">4.657,32</td>
+                  <td class="content_left">4.244,89</td>
+                  <td class="content_left">440,26</td>
+                  <td class="content_left">4.685,15</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">3rd QUARTER</td>
+                  <td class="content_left">55.350.722</td>
+                  <td class="content_left">9.674.996</td>
+                  <td class="content_left">65.025.718</td>
+                  <td class="content_left">55.350.722</td>
+                  <td class="content_left">2.692.196</td>
+                  <td class="content_left">58.042.918</td>
+
+                  <td class="content_left">14.069,60</td>
+                  <td class="content_left">1.166,64</td>
+                  <td class="content_left">15.236,25</td>
+                  <td class="content_left">14.069,60</td>
+                  <td class="content_left">1.403,25</td>
+                  <td class="content_left">15.472,86</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">OCTOBER</td>
+                  <td class="content_left">19.403.164</td>
+                  <td class="content_left">3.632.877</td>
+                  <td class="content_left">23.036.041</td>
+                  <td class="content_left">19.403.164</td>
+                  <td class="content_left">628.887</td>
+                  <td class="content_left">20.032.051</td>
+
+                  <td class="content_left">4.146,72</td>
+                  <td class="content_left">424,41</td>
+                  <td class="content_left">4.571,13</td>
+                  <td class="content_left">4.146,72</td>
+                  <td class="content_left">410,73</td>
+                  <td class="content_left">4.557,45</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">NOVEMBER</td>
+                  <td class="content_left">18.561.988</td>
+                  <td class="content_left">3.760.713</td>
+                  <td class="content_left">22.322.701</td>
+                  <td class="content_left">18.561.988</td>
+                  <td class="content_left">472.109</td>
+                  <td class="content_left">19.034.097</td>
+
+                  <td class="content_left">4.206,12</td>
+                  <td class="content_left">419,21</td>
+                  <td class="content_left">4.625,33</td>
+                  <td class="content_left">4.206,12</td>
+                  <td class="content_left">320,07</td>
+                  <td class="content_left">4.526,19</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">DECEMBER</td>
+                  <td class="content_left">20.437.082</td>
+                  <td class="content_left">3.901.311</td>
+                  <td class="content_left">24.338.393</td>
+                  <td class="content_left">20.437.082</td>
+                  <td class="content_left">439.907</td>
+                  <td class="content_left">20.876.989</td>
+
+                  <td class="content_left">4.694,01</td>
+                  <td class="content_left">444,53</td>
+                  <td class="content_left">5.138,54</td>
+                  <td class="content_left">4.694,01</td>
+                  <td class="content_left">315,10</td>
+                  <td class="content_left">5.009,11</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">4th QUARTER</td>
+                  <td class="content_left">58.402.234</td>
+                  <td class="content_left">11.294.901</td>
+                  <td class="content_left">69.697.135</td>
+                  <td class="content_left">58.402.234</td>
+                  <td class="content_left">1.540.903</td>
+                  <td class="content_left">59.943.137</td>
+
+                  <td class="content_left">13.046,85</td>
+                  <td class="content_left">1.288,15</td>
+                  <td class="content_left">14.335,00</td>
+                  <td class="content_left">13.046,85</td>
+                  <td class="content_left">1.045,90</td>
+                  <td class="content_left">14.092,74</td>
+
+                </tr>
+                                                    <tr class="yil">
+              <td class="sub_sub_title">2015 YEAR</td>
+              <td class="content_left">219.713.668</td>
+              <td class="content_left">41.214.051</td>
+              <td class="content_left">260.927.719</td>
+              <td class="content_left">219.713.668</td>
+              <td class="content_left">7.447.751</td>
+              <td class="content_left">227.161.419</td>
+
+              <td class="content_left">50.682,91</td>
+              <td class="content_left">4.601,09</td>
+              <td class="content_left">55.284,00</td>
+              <td class="content_left">50.682,91</td>
+              <td class="content_left">4.706,09</td>
+              <td class="content_left">55.389,00</td>
+            </tr>
+            <tr>
+              <td colspan="13" height="15"></td>
+            </tr>
+          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2014 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+            
+                                                                        <tr >
+                  <td class="sub_sub_title">JANUARY</td>
+                  <td class="content_left">17.684.204</td>
+                  <td class="content_left">2.928.090</td>
+                  <td class="content_left">20.612.294</td>
+                  <td class="content_left">17.684.204</td>
+                  <td class="content_left">462.144</td>
+                  <td class="content_left">18.146.348</td>
+
+                  <td class="content_left">4.147,45</td>
+                  <td class="content_left">311,05</td>
+                  <td class="content_left">4.458,50</td>
+                  <td class="content_left">4.147,45</td>
+                  <td class="content_left">322,26</td>
+                  <td class="content_left">4.469,72</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">FEBRUARY</td>
+                  <td class="content_left">13.383.214</td>
+                  <td class="content_left">2.682.229</td>
+                  <td class="content_left">16.065.443</td>
+                  <td class="content_left">13.383.214</td>
+                  <td class="content_left">486.197</td>
+                  <td class="content_left">13.869.411</td>
+
+                  <td class="content_left">2.290,90</td>
+                  <td class="content_left">258,54</td>
+                  <td class="content_left">2.549,44</td>
+                  <td class="content_left">2.290,90</td>
+                  <td class="content_left">323,39</td>
+                  <td class="content_left">2.614,30</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MARCH</td>
+                  <td class="content_left">14.191.671</td>
+                  <td class="content_left">3.064.815</td>
+                  <td class="content_left">17.256.486</td>
+                  <td class="content_left">14.191.671</td>
+                  <td class="content_left">677.029</td>
+                  <td class="content_left">14.868.700</td>
+
+                  <td class="content_left">2.572,89</td>
+                  <td class="content_left">287,58</td>
+                  <td class="content_left">2.860,46</td>
+                  <td class="content_left">2.572,89</td>
+                  <td class="content_left">379,74</td>
+                  <td class="content_left">2.952,63</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">1st QUARTER</td>
+                  <td class="content_left">45.259.089</td>
+                  <td class="content_left">8.675.134</td>
+                  <td class="content_left">53.934.223</td>
+                  <td class="content_left">45.259.089</td>
+                  <td class="content_left">1.625.370</td>
+                  <td class="content_left">46.884.459</td>
+
+                  <td class="content_left">9.011,24</td>
+                  <td class="content_left">857,16</td>
+                  <td class="content_left">9.868,41</td>
+                  <td class="content_left">9.011,24</td>
+                  <td class="content_left">1.025,40</td>
+                  <td class="content_left">10.036,64</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">APRIL</td>
+                  <td class="content_left">14.060.669</td>
+                  <td class="content_left">2.975.599</td>
+                  <td class="content_left">17.036.268</td>
+                  <td class="content_left">14.060.669</td>
+                  <td class="content_left">882.212</td>
+                  <td class="content_left">14.942.881</td>
+
+                  <td class="content_left">2.648,87</td>
+                  <td class="content_left">276,25</td>
+                  <td class="content_left">2.925,13</td>
+                  <td class="content_left">2.648,87</td>
+                  <td class="content_left">391,67</td>
+                  <td class="content_left">3.040,55</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MAY</td>
+                  <td class="content_left">14.997.376</td>
+                  <td class="content_left">2.969.365</td>
+                  <td class="content_left">17.966.741</td>
+                  <td class="content_left">14.997.376</td>
+                  <td class="content_left">929.441</td>
+                  <td class="content_left">15.926.817</td>
+
+                  <td class="content_left">2.982,69</td>
+                  <td class="content_left">304,95</td>
+                  <td class="content_left">3.287,64</td>
+                  <td class="content_left">2.982,69</td>
+                  <td class="content_left">449,88</td>
+                  <td class="content_left">3.432,56</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">JUNE</td>
+                  <td class="content_left">14.030.903</td>
+                  <td class="content_left">2.842.544</td>
+                  <td class="content_left">16.873.447</td>
+                  <td class="content_left">14.030.903</td>
+                  <td class="content_left">917.628</td>
+                  <td class="content_left">14.948.531</td>
+
+                  <td class="content_left">2.973,91</td>
+                  <td class="content_left">317,37</td>
+                  <td class="content_left">3.291,27</td>
+                  <td class="content_left">2.973,91</td>
+                  <td class="content_left">418,95</td>
+                  <td class="content_left">3.392,86</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">2nd QUARTER</td>
+                  <td class="content_left">43.088.948</td>
+                  <td class="content_left">8.787.508</td>
+                  <td class="content_left">51.876.456</td>
+                  <td class="content_left">43.088.948</td>
+                  <td class="content_left">2.729.281</td>
+                  <td class="content_left">45.818.229</td>
+
+                  <td class="content_left">8.605,47</td>
+                  <td class="content_left">898,57</td>
+                  <td class="content_left">9.504,04</td>
+                  <td class="content_left">8.605,47</td>
+                  <td class="content_left">1.260,50</td>
+                  <td class="content_left">9.865,97</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">JULY</td>
+                  <td class="content_left">16.527.467</td>
+                  <td class="content_left">2.856.865</td>
+                  <td class="content_left">19.384.332</td>
+                  <td class="content_left">16.527.467</td>
+                  <td class="content_left">1.005.013</td>
+                  <td class="content_left">17.532.480</td>
+
+                  <td class="content_left">3.820,41</td>
+                  <td class="content_left">276,51</td>
+                  <td class="content_left">4.096,92</td>
+                  <td class="content_left">3.820,41</td>
+                  <td class="content_left">478,26</td>
+                  <td class="content_left">4.298,67</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">AUGUST</td>
+                  <td class="content_left">14.591.507</td>
+                  <td class="content_left">2.807.601</td>
+                  <td class="content_left">17.399.108</td>
+                  <td class="content_left">14.591.507</td>
+                  <td class="content_left">922.216</td>
+                  <td class="content_left">15.513.723</td>
+
+                  <td class="content_left">3.131,84</td>
+                  <td class="content_left">273,46</td>
+                  <td class="content_left">3.405,30</td>
+                  <td class="content_left">3.131,84</td>
+                  <td class="content_left">441,71</td>
+                  <td class="content_left">3.573,55</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">SEPTEMBER</td>
+                  <td class="content_left">15.127.858</td>
+                  <td class="content_left">2.859.935</td>
+                  <td class="content_left">17.987.793</td>
+                  <td class="content_left">15.127.858</td>
+                  <td class="content_left">815.445</td>
+                  <td class="content_left">15.943.303</td>
+
+                  <td class="content_left">3.257,64</td>
+                  <td class="content_left">296,86</td>
+                  <td class="content_left">3.554,50</td>
+                  <td class="content_left">3.257,64</td>
+                  <td class="content_left">422,85</td>
+                  <td class="content_left">3.680,48</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">3rd QUARTER</td>
+                  <td class="content_left">46.246.832</td>
+                  <td class="content_left">8.524.401</td>
+                  <td class="content_left">54.771.233</td>
+                  <td class="content_left">46.246.832</td>
+                  <td class="content_left">2.742.674</td>
+                  <td class="content_left">48.989.506</td>
+
+                  <td class="content_left">10.209,88</td>
+                  <td class="content_left">846,83</td>
+                  <td class="content_left">11.056,72</td>
+                  <td class="content_left">10.209,88</td>
+                  <td class="content_left">1.342,82</td>
+                  <td class="content_left">11.552,70</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">OCTOBER</td>
+                  <td class="content_left">15.029.549</td>
+                  <td class="content_left">3.264.730</td>
+                  <td class="content_left">18.294.279</td>
+                  <td class="content_left">15.029.549</td>
+                  <td class="content_left">613.109</td>
+                  <td class="content_left">15.642.658</td>
+
+                  <td class="content_left">2.857,67</td>
+                  <td class="content_left">316,89</td>
+                  <td class="content_left">3.174,56</td>
+                  <td class="content_left">2.857,67</td>
+                  <td class="content_left">362,04</td>
+                  <td class="content_left">3.219,71</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">NOVEMBER</td>
+                  <td class="content_left">15.366.329</td>
+                  <td class="content_left">3.323.872</td>
+                  <td class="content_left">18.690.201</td>
+                  <td class="content_left">15.366.329</td>
+                  <td class="content_left">483.140</td>
+                  <td class="content_left">15.849.469</td>
+
+                  <td class="content_left">2.974,50</td>
+                  <td class="content_left">322,63</td>
+                  <td class="content_left">3.297,14</td>
+                  <td class="content_left">2.974,50</td>
+                  <td class="content_left">320,75</td>
+                  <td class="content_left">3.295,25</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">DECEMBER</td>
+                  <td class="content_left">16.929.207</td>
+                  <td class="content_left">3.650.097</td>
+                  <td class="content_left">20.579.304</td>
+                  <td class="content_left">16.929.207</td>
+                  <td class="content_left">410.760</td>
+                  <td class="content_left">17.339.967</td>
+
+                  <td class="content_left">3.596,61</td>
+                  <td class="content_left">351,20</td>
+                  <td class="content_left">3.947,82</td>
+                  <td class="content_left">3.596,61</td>
+                  <td class="content_left">316,54</td>
+                  <td class="content_left">3.913,15</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">4th QUARTER</td>
+                  <td class="content_left">47.325.085</td>
+                  <td class="content_left">10.238.699</td>
+                  <td class="content_left">57.563.784</td>
+                  <td class="content_left">47.325.085</td>
+                  <td class="content_left">1.507.009</td>
+                  <td class="content_left">48.832.094</td>
+
+                  <td class="content_left">9.428,79</td>
+                  <td class="content_left">990,73</td>
+                  <td class="content_left">10.419,52</td>
+                  <td class="content_left">9.428,79</td>
+                  <td class="content_left">999,33</td>
+                  <td class="content_left">10.428,12</td>
+
+                </tr>
+                                                    <tr class="yil">
+              <td class="sub_sub_title">2014 YEAR</td>
+              <td class="content_left">181.919.954</td>
+              <td class="content_left">36.225.742</td>
+              <td class="content_left">218.145.696</td>
+              <td class="content_left">181.919.954</td>
+              <td class="content_left">8.604.334</td>
+              <td class="content_left">190.524.288</td>
+
+              <td class="content_left">37.255,39</td>
+              <td class="content_left">3.593,29</td>
+              <td class="content_left">40.848,68</td>
+              <td class="content_left">37.255,39</td>
+              <td class="content_left">4.628,05</td>
+              <td class="content_left">41.883,44</td>
+            </tr>
+            <tr>
+              <td colspan="13" height="15"></td>
+            </tr>
+          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2013 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+            
+                                                                        <tr >
+                  <td class="sub_sub_title">JANUARY</td>
+                  <td class="content_left">15.463.537</td>
+                  <td class="content_left">2.076.037</td>
+                  <td class="content_left">17.539.574</td>
+                  <td class="content_left">15.463.537</td>
+                  <td class="content_left">274.368</td>
+                  <td class="content_left">15.737.905</td>
+
+                  <td class="content_left">3.196,50</td>
+                  <td class="content_left">186,57</td>
+                  <td class="content_left">3.383,06</td>
+                  <td class="content_left">3.196,50</td>
+                  <td class="content_left">177,47</td>
+                  <td class="content_left">3.373,96</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">FEBRUARY</td>
+                  <td class="content_left">11.440.446</td>
+                  <td class="content_left">1.963.668</td>
+                  <td class="content_left">13.404.114</td>
+                  <td class="content_left">11.440.446</td>
+                  <td class="content_left">264.853</td>
+                  <td class="content_left">11.705.299</td>
+
+                  <td class="content_left">2.007,04</td>
+                  <td class="content_left">183,86</td>
+                  <td class="content_left">2.190,89</td>
+                  <td class="content_left">2.007,04</td>
+                  <td class="content_left">183,32</td>
+                  <td class="content_left">2.190,36</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MARCH</td>
+                  <td class="content_left">12.427.703</td>
+                  <td class="content_left">2.310.909</td>
+                  <td class="content_left">14.738.612</td>
+                  <td class="content_left">12.427.703</td>
+                  <td class="content_left">302.598</td>
+                  <td class="content_left">12.730.301</td>
+
+                  <td class="content_left">2.208,89</td>
+                  <td class="content_left">213,58</td>
+                  <td class="content_left">2.422,47</td>
+                  <td class="content_left">2.208,89</td>
+                  <td class="content_left">223,95</td>
+                  <td class="content_left">2.432,84</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">1st QUARTER</td>
+                  <td class="content_left">39.331.686</td>
+                  <td class="content_left">6.350.614</td>
+                  <td class="content_left">45.682.300</td>
+                  <td class="content_left">39.331.686</td>
+                  <td class="content_left">841.819</td>
+                  <td class="content_left">40.173.505</td>
+
+                  <td class="content_left">7.412,42</td>
+                  <td class="content_left">584,00</td>
+                  <td class="content_left">7.996,43</td>
+                  <td class="content_left">7.412,42</td>
+                  <td class="content_left">584,74</td>
+                  <td class="content_left">7.997,16</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">APRIL</td>
+                  <td class="content_left">12.778.457</td>
+                  <td class="content_left">2.399.434</td>
+                  <td class="content_left">15.177.891</td>
+                  <td class="content_left">12.778.457</td>
+                  <td class="content_left">326.096</td>
+                  <td class="content_left">13.104.553</td>
+
+                  <td class="content_left">2.262,63</td>
+                  <td class="content_left">226,26</td>
+                  <td class="content_left">2.488,89</td>
+                  <td class="content_left">2.262,63</td>
+                  <td class="content_left">238,61</td>
+                  <td class="content_left">2.501,25</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">MAY</td>
+                  <td class="content_left">13.860.030</td>
+                  <td class="content_left">2.393.843</td>
+                  <td class="content_left">16.253.873</td>
+                  <td class="content_left">13.860.030</td>
+                  <td class="content_left">372.942</td>
+                  <td class="content_left">14.232.972</td>
+
+                  <td class="content_left">2.642,24</td>
+                  <td class="content_left">223,69</td>
+                  <td class="content_left">2.865,93</td>
+                  <td class="content_left">2.642,24</td>
+                  <td class="content_left">242,34</td>
+                  <td class="content_left">2.884,58</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">JUNE</td>
+                  <td class="content_left">12.181.381</td>
+                  <td class="content_left">2.150.292</td>
+                  <td class="content_left">14.331.673</td>
+                  <td class="content_left">12.181.381</td>
+                  <td class="content_left">349.835</td>
+                  <td class="content_left">12.531.216</td>
+
+                  <td class="content_left">2.398,13</td>
+                  <td class="content_left">200,76</td>
+                  <td class="content_left">2.598,89</td>
+                  <td class="content_left">2.398,13</td>
+                  <td class="content_left">219,16</td>
+                  <td class="content_left">2.617,29</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">2nd QUARTER</td>
+                  <td class="content_left">38.819.868</td>
+                  <td class="content_left">6.943.569</td>
+                  <td class="content_left">45.763.437</td>
+                  <td class="content_left">38.819.868</td>
+                  <td class="content_left">1.048.873</td>
+                  <td class="content_left">39.868.741</td>
+
+                  <td class="content_left">7.303,00</td>
+                  <td class="content_left">650,71</td>
+                  <td class="content_left">7.953,71</td>
+                  <td class="content_left">7.303,00</td>
+                  <td class="content_left">700,12</td>
+                  <td class="content_left">8.003,12</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">JULY</td>
+                  <td class="content_left">16.171.539</td>
+                  <td class="content_left">2.584.651</td>
+                  <td class="content_left">18.756.190</td>
+                  <td class="content_left">16.171.539</td>
+                  <td class="content_left">393.172</td>
+                  <td class="content_left">16.564.711</td>
+
+                  <td class="content_left">3.637,65</td>
+                  <td class="content_left">197,34</td>
+                  <td class="content_left">3.834,99</td>
+                  <td class="content_left">3.637,65</td>
+                  <td class="content_left">251,52</td>
+                  <td class="content_left">3.889,16</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">AUGUST</td>
+                  <td class="content_left">13.278.746</td>
+                  <td class="content_left">2.388.774</td>
+                  <td class="content_left">15.667.520</td>
+                  <td class="content_left">13.278.746</td>
+                  <td class="content_left">403.725</td>
+                  <td class="content_left">13.682.471</td>
+
+                  <td class="content_left">2.638,87</td>
+                  <td class="content_left">192,80</td>
+                  <td class="content_left">2.831,66</td>
+                  <td class="content_left">2.638,87</td>
+                  <td class="content_left">250,96</td>
+                  <td class="content_left">2.889,82</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">SEPTEMBER</td>
+                  <td class="content_left">13.908.667</td>
+                  <td class="content_left">2.403.982</td>
+                  <td class="content_left">16.312.649</td>
+                  <td class="content_left">13.908.667</td>
+                  <td class="content_left">417.851</td>
+                  <td class="content_left">14.326.518</td>
+
+                  <td class="content_left">2.806,08</td>
+                  <td class="content_left">211,00</td>
+                  <td class="content_left">3.017,07</td>
+                  <td class="content_left">2.806,08</td>
+                  <td class="content_left">267,17</td>
+                  <td class="content_left">3.073,24</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">3rd QUARTER</td>
+                  <td class="content_left">43.358.952</td>
+                  <td class="content_left">7.377.407</td>
+                  <td class="content_left">50.736.359</td>
+                  <td class="content_left">43.358.952</td>
+                  <td class="content_left">1.214.748</td>
+                  <td class="content_left">44.573.700</td>
+
+                  <td class="content_left">9.082,59</td>
+                  <td class="content_left">601,14</td>
+                  <td class="content_left">9.683,73</td>
+                  <td class="content_left">9.082,59</td>
+                  <td class="content_left">769,64</td>
+                  <td class="content_left">9.852,23</td>
+
+                </tr>
+                                                                                                    <tr >
+                  <td class="sub_sub_title">OCTOBER</td>
+                  <td class="content_left">13.196.620</td>
+                  <td class="content_left">2.652.353</td>
+                  <td class="content_left">15.848.973</td>
+                  <td class="content_left">13.196.620</td>
+                  <td class="content_left">410.130</td>
+                  <td class="content_left">13.606.750</td>
+
+                  <td class="content_left">2.443,79</td>
+                  <td class="content_left">274,52</td>
+                  <td class="content_left">2.718,31</td>
+                  <td class="content_left">2.443,79</td>
+                  <td class="content_left">267,92</td>
+                  <td class="content_left">2.711,71</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">NOVEMBER</td>
+                  <td class="content_left">14.803.061</td>
+                  <td class="content_left">2.639.998</td>
+                  <td class="content_left">17.443.059</td>
+                  <td class="content_left">14.216.756</td>
+                  <td class="content_left">378.894</td>
+                  <td class="content_left">14.595.650</td>
+
+                  <td class="content_left">2.791,85</td>
+                  <td class="content_left">214,21</td>
+                  <td class="content_left">3.006,06</td>
+                  <td class="content_left">2.668,92</td>
+                  <td class="content_left">234,24</td>
+                  <td class="content_left">2.903,15</td>
+
+
+                </tr>
+                                              <tr >
+                  <td class="sub_sub_title">DECEMBER</td>
+                  <td class="content_left">14.885.301</td>
+                  <td class="content_left">2.965.426</td>
+                  <td class="content_left">17.850.727</td>
+                  <td class="content_left">14.885.301</td>
+                  <td class="content_left">357.709</td>
+                  <td class="content_left">15.243.010</td>
+
+                  <td class="content_left">2.913,86</td>
+                  <td class="content_left">236,83</td>
+                  <td class="content_left">3.150,68</td>
+                  <td class="content_left">2.913,86</td>
+                  <td class="content_left">224,81</td>
+                  <td class="content_left">3.138,66</td>
+
+
+                </tr>
+                                                          <tr class="donem">
+                  <td class="sub_sub_title">4th QUARTER</td>
+                  <td class="content_left">42.884.982</td>
+                  <td class="content_left">8.257.777</td>
+                  <td class="content_left">51.142.759</td>
+                  <td class="content_left">42.298.677</td>
+                  <td class="content_left">1.146.733</td>
+                  <td class="content_left">43.445.410</td>
+
+                  <td class="content_left">8.149,49</td>
+                  <td class="content_left">725,56</td>
+                  <td class="content_left">8.875,05</td>
+                  <td class="content_left">8.026,56</td>
+                  <td class="content_left">726,96</td>
+                  <td class="content_left">8.753,52</td>
+
+                </tr>
+                                                    <tr class="yil">
+              <td class="sub_sub_title">2013 YEAR</td>
+              <td class="content_left">164.395.488</td>
+              <td class="content_left">28.929.367</td>
+              <td class="content_left">193.324.855</td>
+              <td class="content_left">163.809.183</td>
+              <td class="content_left">4.252.173</td>
+              <td class="content_left">168.061.356</td>
+
+              <td class="content_left">31.947,50</td>
+              <td class="content_left">2.561,41</td>
+              <td class="content_left">34.508,91</td>
+              <td class="content_left">31.824,57</td>
+              <td class="content_left">2.781,46</td>
+              <td class="content_left">34.606,04</td>
+            </tr>
+            <tr>
+              <td colspan="13" height="15"></td>
+            </tr>
+          </table>
+                          <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2012 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+                              <tr>
+                    <td class="sub_sub_title">JANUARY</td>
+                    <td class="content_left">13.140.152</td>
+                    <td class="content_left">1.342.934</td>
+                    <td class="content_left">14.483.086</td>
+                    <td class="content_left">13.140.152</td>
+                    <td class="content_left">231.959</td>
+                    <td class="content_left">13.372.111</td>
+
+                    <td class="content_left">2.509,77</td>
+                    <td class="content_left">157,54</td>
+                    <td class="content_left">2.667,31</td>
+                    <td class="content_left">2.509,77</td>
+                    <td class="content_left">127,33</td>
+                    <td class="content_left">2.637,10</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">FEBRUARY</td>
+                    <td class="content_left">11.247.639</td>
+                    <td class="content_left">1.430.216</td>
+                    <td class="content_left">12.677.855</td>
+                    <td class="content_left">11.247.639</td>
+                    <td class="content_left">269.151</td>
+                    <td class="content_left">11.516.790</td>
+
+                    <td class="content_left">1.884,27</td>
+                    <td class="content_left">163,52</td>
+                    <td class="content_left">2.047,79</td>
+                    <td class="content_left">1.884,27</td>
+                    <td class="content_left">132,83</td>
+                    <td class="content_left">2.017,10</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">MARCH</td>
+                    <td class="content_left">12.292.750</td>
+                    <td class="content_left">1.512.250</td>
+                    <td class="content_left">13.805.000</td>
+                    <td class="content_left">12.292.750</td>
+                    <td class="content_left">253.331</td>
+                    <td class="content_left">12.546.081</td>
+
+                    <td class="content_left">2.139,70</td>
+                    <td class="content_left">158,53</td>
+                    <td class="content_left">2.298,23</td>
+                    <td class="content_left">2.139,70</td>
+                    <td class="content_left">112,75</td>
+                    <td class="content_left">2.252,45</td>
+
+
+                  </tr>
+                                                                  <tr class="donem">
+                    <td class="sub_sub_title">1st QUARTER</td>
+                    <td class="content_left">36.680.541</td>
+                    <td class="content_left">4.285.400</td>
+                    <td class="content_left">40.965.941</td>
+                    <td class="content_left">36.680.541</td>
+                    <td class="content_left">754.441</td>
+                    <td class="content_left">37.434.982</td>
+
+                    <td class="content_left">6.533,74</td>
+                    <td class="content_left">479,59</td>
+                    <td class="content_left">7.013,33</td>
+                    <td class="content_left">6.533,74</td>
+                    <td class="content_left">372,91</td>
+                    <td class="content_left">6.906,65</td>
+
+                  </tr>
+                                                                <tr>
+                    <td class="sub_sub_title">APRIL</td>
+                    <td class="content_left">11.814.033</td>
+                    <td class="content_left">1.316.964</td>
+                    <td class="content_left">13.130.997</td>
+                    <td class="content_left">11.814.033</td>
+                    <td class="content_left">764.182</td>
+                    <td class="content_left">12.578.215</td>
+
+                    <td class="content_left">2.068,69</td>
+                    <td class="content_left">131,47</td>
+                    <td class="content_left">2.200,16</td>
+                    <td class="content_left">2.068,69</td>
+                    <td class="content_left">201,19</td>
+                    <td class="content_left">2.269,88</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">MAY</td>
+                    <td class="content_left">12.825.766</td>
+                    <td class="content_left">1.356.407</td>
+                    <td class="content_left">14.182.173</td>
+                    <td class="content_left">12.825.766</td>
+                    <td class="content_left">544.810</td>
+                    <td class="content_left">13.370.576</td>
+
+                    <td class="content_left">2.301,62</td>
+                    <td class="content_left">137,54</td>
+                    <td class="content_left">2.439,16</td>
+                    <td class="content_left">2.301,62</td>
+                    <td class="content_left">298,90</td>
+                    <td class="content_left">2.600,52</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">JUNE</td>
+                    <td class="content_left">11.332.907</td>
+                    <td class="content_left">1.259.467</td>
+                    <td class="content_left">12.592.374</td>
+                    <td class="content_left">11.332.907</td>
+                    <td class="content_left">541.132</td>
+                    <td class="content_left">11.874.039</td>
+
+                    <td class="content_left">2.222,60</td>
+                    <td class="content_left">127,05</td>
+                    <td class="content_left">2.349,65</td>
+                    <td class="content_left">2.222,60</td>
+                    <td class="content_left">252,34</td>
+                    <td class="content_left">2.474,94</td>
+
+
+                  </tr>
+                                                                  <tr class="donem">
+                    <td class="sub_sub_title">2nd QUARTER</td>
+                    <td class="content_left">35.972.706</td>
+                    <td class="content_left">3.932.838</td>
+                    <td class="content_left">39.905.544</td>
+                    <td class="content_left">35.972.706</td>
+                    <td class="content_left">1.850.124</td>
+                    <td class="content_left">37.822.830</td>
+
+                    <td class="content_left">6.592,91</td>
+                    <td class="content_left">396,06</td>
+                    <td class="content_left">6.988,97</td>
+                    <td class="content_left">6.592,91</td>
+                    <td class="content_left">752,43</td>
+                    <td class="content_left">7.345,34</td>
+
+                  </tr>
+                                                                <tr>
+                    <td class="sub_sub_title">JULY</td>
+                    <td class="content_left">13.759.247</td>
+                    <td class="content_left">1.339.074</td>
+                    <td class="content_left">15.098.321</td>
+                    <td class="content_left">13.759.247</td>
+                    <td class="content_left">633.805</td>
+                    <td class="content_left">14.393.052</td>
+
+                    <td class="content_left">2.874,91</td>
+                    <td class="content_left">158,88</td>
+                    <td class="content_left">3.033,79</td>
+                    <td class="content_left">2.874,91</td>
+                    <td class="content_left">311,41</td>
+                    <td class="content_left">3.186,32</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">AUGUST</td>
+                    <td class="content_left">12.943.680</td>
+                    <td class="content_left">1.529.720</td>
+                    <td class="content_left">14.473.400</td>
+                    <td class="content_left">12.943.680</td>
+                    <td class="content_left">630.540</td>
+                    <td class="content_left">13.574.220</td>
+
+                    <td class="content_left">2.460,65</td>
+                    <td class="content_left">174,49</td>
+                    <td class="content_left">2.635,14</td>
+                    <td class="content_left">2.460,65</td>
+                    <td class="content_left">290,66</td>
+                    <td class="content_left">2.751,31</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">SEPTEMBER</td>
+                    <td class="content_left">12.277.127</td>
+                    <td class="content_left">1.457.279</td>
+                    <td class="content_left">13.734.406</td>
+                    <td class="content_left">12.277.127</td>
+                    <td class="content_left">256.530</td>
+                    <td class="content_left">12.533.657</td>
+
+                    <td class="content_left">2.301,02</td>
+                    <td class="content_left">146,17</td>
+                    <td class="content_left">2.447,19</td>
+                    <td class="content_left">2.301,02</td>
+                    <td class="content_left">155,75</td>
+                    <td class="content_left">2.456,77</td>
+
+
+                  </tr>
+                                                                  <tr class="donem">
+                    <td class="sub_sub_title">3rd QUARTER</td>
+                    <td class="content_left">38.980.054</td>
+                    <td class="content_left">4.326.073</td>
+                    <td class="content_left">43.306.127</td>
+                    <td class="content_left">38.980.054</td>
+                    <td class="content_left">1.520.875</td>
+                    <td class="content_left">40.500.929</td>
+
+                    <td class="content_left">7.636,58</td>
+                    <td class="content_left">479,54</td>
+                    <td class="content_left">8.116,12</td>
+                    <td class="content_left">7.636,58</td>
+                    <td class="content_left">757,82</td>
+                    <td class="content_left">8.394,40</td>
+
+                  </tr>
+                                                                <tr>
+                    <td class="sub_sub_title">OCTOBER</td>
+                    <td class="content_left">13.063.074</td>
+                    <td class="content_left">1.677.185</td>
+                    <td class="content_left">14.740.259</td>
+                    <td class="content_left">13.063.074</td>
+                    <td class="content_left">230.892</td>
+                    <td class="content_left">13.293.966</td>
+
+                    <td class="content_left">2.306,42</td>
+                    <td class="content_left">172,10</td>
+                    <td class="content_left">2.478,52</td>
+                    <td class="content_left">2.306,42</td>
+                    <td class="content_left">147,85</td>
+                    <td class="content_left">2.454,27</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">NOVEMBER</td>
+                    <td class="content_left">13.724.357</td>
+                    <td class="content_left">1.794.276</td>
+                    <td class="content_left">15.518.633</td>
+                    <td class="content_left">13.724.357</td>
+                    <td class="content_left">236.802</td>
+                    <td class="content_left">13.961.159</td>
+
+                    <td class="content_left">2.310,62</td>
+                    <td class="content_left">202,98</td>
+                    <td class="content_left">2.513,60</td>
+                    <td class="content_left">2.310,62</td>
+                    <td class="content_left">135,83</td>
+                    <td class="content_left">2.446,45</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">DECEMBER</td>
+                    <td class="content_left">14.973.836</td>
+                    <td class="content_left">2.021.627</td>
+                    <td class="content_left">16.995.463</td>
+                    <td class="content_left">14.973.836</td>
+                    <td class="content_left">217.320</td>
+                    <td class="content_left">15.191.156</td>
+
+                    <td class="content_left">2.652,07</td>
+                    <td class="content_left">174,32</td>
+                    <td class="content_left">2.826,39</td>
+                    <td class="content_left">2.652,07</td>
+                    <td class="content_left">128,97</td>
+                    <td class="content_left">2.781,04</td>
+
+
+                  </tr>
+                                                                  <tr class="donem">
+                    <td class="sub_sub_title">4th QUARTER</td>
+                    <td class="content_left">41.761.267</td>
+                    <td class="content_left">5.493.088</td>
+                    <td class="content_left">47.254.355</td>
+                    <td class="content_left">41.761.267</td>
+                    <td class="content_left">685.014</td>
+                    <td class="content_left">42.446.281</td>
+
+                    <td class="content_left">7.269,11</td>
+                    <td class="content_left">549,40</td>
+                    <td class="content_left">7.818,51</td>
+                    <td class="content_left">7.269,11</td>
+                    <td class="content_left">412,65</td>
+                    <td class="content_left">7.681,76</td>
+
+                  </tr>
+                                                            <tr class="yil">
+                <td class="sub_sub_title">2012 YEAR</td>
+                <td class="content_left">153.394.568</td>
+                <td class="content_left">18.037.399</td>
+                <td class="content_left">171.431.967</td>
+                <td class="content_left">153.394.568</td>
+                <td class="content_left">4.810.454</td>
+                <td class="content_left">158.205.022</td>
+
+                <td class="content_left">28.032,34</td>
+                <td class="content_left">1.904,59</td>
+                <td class="content_left">29.936,93</td>
+                <td class="content_left">28.032,34</td>
+                <td class="content_left">2.295,81</td>
+                <td class="content_left">30.328,15</td>
+              </tr>
+              <tr>
+                <td colspan="11" height="15"></td>
+              </tr>
+            </table>
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <th colspan="13" class="main_title">2011 YEAR</th>
+            </tr>
+            <tr>
+              <th rowspan="3" class="sub_title">Period</th>
+              <th colspan="6" class="sub_title">The Number of Transactions</th>
+              <th colspan="6" class="sub_title">Volume of Transaction  <font style="font-size: 10px">(Million TL)</font></th>
+            </tr>
+            <tr>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+              <th colspan="3" class="sub_title">Domestic and International Transactions with Domestic Cards </th>
+              <th colspan="3" class="sub_title">Domestic Transactions with Domestic and International Cards </th>
+            </tr>
+            <tr>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+              <th class="sub_sub_title">Domestic</th>
+              <th class="sub_sub_title">International</th>
+              <th class="sub_sub_title">Total</th>
+            </tr>
+                              <tr>
+                    <td class="sub_sub_title">JANUARY</td>
+                    <td class="content_left">9.764.404</td>
+                    <td class="content_left">1.006.980</td>
+                    <td class="content_left">10.771.384</td>
+                    <td class="content_left">9.764.404</td>
+                    <td class="content_left">251.695</td>
+                    <td class="content_left">10.016.099</td>
+
+                    <td class="content_left">1.693,95</td>
+                    <td class="content_left">113,60</td>
+                    <td class="content_left">1.807,55</td>
+                    <td class="content_left">1.807,55</td>
+                    <td class="content_left">133,10</td>
+                    <td class="content_left">1.940,65</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">FEBRUARY</td>
+                    <td class="content_left">8.242.303</td>
+                    <td class="content_left">915.426</td>
+                    <td class="content_left">9.157.729</td>
+                    <td class="content_left">8.242.303</td>
+                    <td class="content_left">255.595</td>
+                    <td class="content_left">8.497.898</td>
+
+                    <td class="content_left">1.273,53</td>
+                    <td class="content_left">96,22</td>
+                    <td class="content_left">1.369,75</td>
+                    <td class="content_left">1.273,53</td>
+                    <td class="content_left">145,11</td>
+                    <td class="content_left">1.418,64</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">MARCH</td>
+                    <td class="content_left">9.265.226</td>
+                    <td class="content_left">959.771</td>
+                    <td class="content_left">10.224.997</td>
+                    <td class="content_left">9.265.226</td>
+                    <td class="content_left">317.467</td>
+                    <td class="content_left">9.582.693</td>
+
+                    <td class="content_left">1.411,31</td>
+                    <td class="content_left">123,16</td>
+                    <td class="content_left">1.534,47</td>
+                    <td class="content_left">1.411,31</td>
+                    <td class="content_left">186,49</td>
+                    <td class="content_left">1.597,80</td>
+
+
+                  </tr>
+                                                                  <tr class="donem">
+                    <td class="sub_sub_title">1st QUARTER</td>
+                    <td class="content_left">27.271.933</td>
+                    <td class="content_left">2.882.177</td>
+                    <td class="content_left">30.154.110</td>
+                    <td class="content_left">27.271.933</td>
+                    <td class="content_left">824.757</td>
+                    <td class="content_left">28.096.690</td>
+
+                    <td class="content_left">4.378,79</td>
+                    <td class="content_left">332,98</td>
+                    <td class="content_left">4.711,77</td>
+                    <td class="content_left">4.492,39</td>
+                    <td class="content_left">464,70</td>
+                    <td class="content_left">4.957,09</td>
+
+                  </tr>
+                                                                <tr>
+                    <td class="sub_sub_title">APRIL</td>
+                    <td class="content_left">9.210.480</td>
+                    <td class="content_left">966.220</td>
+                    <td class="content_left">10.176.700</td>
+                    <td class="content_left">9.210.480</td>
+                    <td class="content_left">352.997</td>
+                    <td class="content_left">9.563.477</td>
+
+                    <td class="content_left">1.442,85</td>
+                    <td class="content_left">119,18</td>
+                    <td class="content_left">1.562,03</td>
+                    <td class="content_left">1.442,85</td>
+                    <td class="content_left">200,42</td>
+                    <td class="content_left">1.643,27</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">MAY</td>
+                    <td class="content_left">9.836.291</td>
+                    <td class="content_left">1.088.065</td>
+                    <td class="content_left">10.924.356</td>
+                    <td class="content_left">9.836.291</td>
+                    <td class="content_left">417.732</td>
+                    <td class="content_left">10.254.023</td>
+
+                    <td class="content_left">1.635,86</td>
+                    <td class="content_left">116,47</td>
+                    <td class="content_left">1.752,33</td>
+                    <td class="content_left">1.635,86</td>
+                    <td class="content_left">219,96</td>
+                    <td class="content_left">1.855,82</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">JUNE</td>
+                    <td class="content_left">9.890.114</td>
+                    <td class="content_left">1.007.093</td>
+                    <td class="content_left">10.897.207</td>
+                    <td class="content_left">9.890.114</td>
+                    <td class="content_left">369.833</td>
+                    <td class="content_left">10.259.947</td>
+
+                    <td class="content_left">1.837,77</td>
+                    <td class="content_left">120,58</td>
+                    <td class="content_left">1.958,35</td>
+                    <td class="content_left">1.837,77</td>
+                    <td class="content_left">186,02</td>
+                    <td class="content_left">2.023,79</td>
+
+
+                  </tr>
+                                                                  <tr class="donem">
+                    <td class="sub_sub_title">2nd QUARTER</td>
+                    <td class="content_left">28.936.885</td>
+                    <td class="content_left">3.061.378</td>
+                    <td class="content_left">31.998.263</td>
+                    <td class="content_left">28.936.885</td>
+                    <td class="content_left">1.140.562</td>
+                    <td class="content_left">30.077.447</td>
+
+                    <td class="content_left">4.916,48</td>
+                    <td class="content_left">356,23</td>
+                    <td class="content_left">5.272,71</td>
+                    <td class="content_left">4.916,48</td>
+                    <td class="content_left">606,40</td>
+                    <td class="content_left">5.522,88</td>
+
+                  </tr>
+                                                                <tr>
+                    <td class="sub_sub_title">JULY</td>
+                    <td class="content_left">11.514.988</td>
+                    <td class="content_left">993.043</td>
+                    <td class="content_left">12.508.031</td>
+                    <td class="content_left">11.514.988</td>
+                    <td class="content_left">425.811</td>
+                    <td class="content_left">11.940.799</td>
+
+                    <td class="content_left">2.246,03</td>
+                    <td class="content_left">118,50</td>
+                    <td class="content_left">2.364,53</td>
+                    <td class="content_left">2.246,03</td>
+                    <td class="content_left">200,66</td>
+                    <td class="content_left">2.446,69</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">AUGUST</td>
+                    <td class="content_left">10.622.574</td>
+                    <td class="content_left">1.152.424</td>
+                    <td class="content_left">11.774.998</td>
+                    <td class="content_left">10.622.574</td>
+                    <td class="content_left">407.424</td>
+                    <td class="content_left">11.029.998</td>
+
+                    <td class="content_left">1.945,54</td>
+                    <td class="content_left">130,24</td>
+                    <td class="content_left">2.075,78</td>
+                    <td class="content_left">1.945,54</td>
+                    <td class="content_left">222,09</td>
+                    <td class="content_left">2.167,63</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">SEPTEMBER</td>
+                    <td class="content_left">10.205.391</td>
+                    <td class="content_left">1.131.380</td>
+                    <td class="content_left">11.336.771</td>
+                    <td class="content_left">10.205.391</td>
+                    <td class="content_left">385.160</td>
+                    <td class="content_left">10.590.551</td>
+
+                    <td class="content_left">1.794,94</td>
+                    <td class="content_left">119,26</td>
+                    <td class="content_left">1.914,20</td>
+                    <td class="content_left">1.794,94</td>
+                    <td class="content_left">195,59</td>
+                    <td class="content_left">1.990,53</td>
+
+
+                  </tr>
+                                                                  <tr class="donem">
+                    <td class="sub_sub_title">3rd QUARTER</td>
+                    <td class="content_left">32.342.953</td>
+                    <td class="content_left">3.276.847</td>
+                    <td class="content_left">35.619.800</td>
+                    <td class="content_left">32.342.953</td>
+                    <td class="content_left">1.218.395</td>
+                    <td class="content_left">33.561.348</td>
+
+                    <td class="content_left">5.986,51</td>
+                    <td class="content_left">368,00</td>
+                    <td class="content_left">6.354,51</td>
+                    <td class="content_left">5.986,51</td>
+                    <td class="content_left">618,34</td>
+                    <td class="content_left">6.604,85</td>
+
+                  </tr>
+                                                                <tr>
+                    <td class="sub_sub_title">OCTOBER</td>
+                    <td class="content_left">10.964.181</td>
+                    <td class="content_left">1.188.903</td>
+                    <td class="content_left">12.153.084</td>
+                    <td class="content_left">10.964.181</td>
+                    <td class="content_left">365.683</td>
+                    <td class="content_left">11.329.864</td>
+
+                    <td class="content_left">1.765,66</td>
+                    <td class="content_left">126,79</td>
+                    <td class="content_left">1.892,45</td>
+                    <td class="content_left">1.765,66</td>
+                    <td class="content_left">192,19</td>
+                    <td class="content_left">1.957,85</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">NOVEMBER</td>
+                    <td class="content_left">10.531.307</td>
+                    <td class="content_left">1.207.724</td>
+                    <td class="content_left">11.739.031</td>
+                    <td class="content_left">10.531.307</td>
+                    <td class="content_left">258.002</td>
+                    <td class="content_left">10.789.309</td>
+
+                    <td class="content_left">1.721,04</td>
+                    <td class="content_left">121,15</td>
+                    <td class="content_left">1.842,19</td>
+                    <td class="content_left">1.721,04</td>
+                    <td class="content_left">155,64</td>
+                    <td class="content_left">1.876,68</td>
+
+
+                  </tr>
+                                  <tr>
+                    <td class="sub_sub_title">DECEMBER</td>
+                    <td class="content_left">11.881.405</td>
+                    <td class="content_left">1.224.380</td>
+                    <td class="content_left">13.105.785</td>
+                    <td class="content_left">11.881.405</td>
+                    <td class="content_left">252.023</td>
+                    <td class="content_left">12.133.428</td>
+
+                    <td class="content_left">1.917,90</td>
+                    <td class="content_left">125,97</td>
+                    <td class="content_left">2.043,87</td>
+                    <td class="content_left">1.917,90</td>
+                    <td class="content_left">149,82</td>
+                    <td class="content_left">2.067,72</td>
+
+
+                  </tr>
+                                                                  <tr class="donem">
+                    <td class="sub_sub_title">4th QUARTER</td>
+                    <td class="content_left">33.376.893</td>
+                    <td class="content_left">3.621.007</td>
+                    <td class="content_left">36.997.900</td>
+                    <td class="content_left">33.376.893</td>
+                    <td class="content_left">875.708</td>
+                    <td class="content_left">34.252.601</td>
+
+                    <td class="content_left">5.404,60</td>
+                    <td class="content_left">373,91</td>
+                    <td class="content_left">5.778,51</td>
+                    <td class="content_left">5.404,60</td>
+                    <td class="content_left">497,65</td>
+                    <td class="content_left">5.902,25</td>
+
+                  </tr>
+                                                            <tr class="yil">
+                <td class="sub_sub_title">2011 YEAR</td>
+                <td class="content_left">121.928.664</td>
+                <td class="content_left">12.841.409</td>
+                <td class="content_left">134.770.073</td>
+                <td class="content_left">121.928.664</td>
+                <td class="content_left">4.059.422</td>
+                <td class="content_left">125.988.086</td>
+
+                <td class="content_left">20.686,38</td>
+                <td class="content_left">1.431,12</td>
+                <td class="content_left">22.117,50</td>
+                <td class="content_left">20.799,98</td>
+                <td class="content_left">2.187,09</td>
+                <td class="content_left">22.987,07</td>
+              </tr>
+              <tr>
+                <td colspan="11" height="15"></td>
+              </tr>
+            </table>
+                          
