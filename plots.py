@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 # american ecommerce data
 dataset_A = pd.read_excel("ecomretailfixed.xls")
-dataset_turkey = pd.read_excel("TurkeyData.xlsx")
+dataset_turkey = pd.read_excel("TurkeyData3.xlsx")
 
 date_A = dataset_A["observation_date"]
 ecomsa_A = dataset_A["ECOMSA"]
@@ -55,5 +55,3 @@ fig = go.Figure(data=[go.Pie(labels=labels, values=values,title="Türkiye 2018-2
                              insidetextorientation='radial'
                             )])
 fig.show()
-
-
