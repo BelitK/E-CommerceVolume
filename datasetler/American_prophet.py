@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 from fbprophet import Prophet
@@ -11,33 +11,33 @@ from matplotlib import pyplot
 #univariate
 
 
-# In[2]:
-
-
-turkey = pd.read_excel("datasetler\ecomretailfixed.xls",header=0)
-
-
-# In[3]:
-
-
-turkey.columns = ['ds', 'y']
-turkey
-turkey['ds']= pd.to_datetime(turkey['ds'])
-
-
 # In[4]:
 
 
-model = Prophet()
+amerika = pd.read_excel("ecomretailfixed.xls",header=0)
 
 
-# In[5]:
+# In[17]:
 
 
-model.fit(turkey)
+amerika.columns = ['ds', 'y']
+amerika
+amerika['ds']= pd.to_datetime(amerika['ds'])
 
 
-# In[6]:
+# In[18]:
+
+
+model = Prophet(growth='linear',uncertainty_samples=100,n_changepoints=50)
+#model(mcmc.samples=1,uncertainty.samples = 1000)
+
+# In[19]:
+
+
+model.fit(amerika)
+
+
+# In[30]:
 
 
 # define the period for which we want a prediction
@@ -65,27 +65,27 @@ pyplot.scatter(forecast['ds'],forecast['yhat'])
 pyplot.show()
 
 
-# In[7]:
+# In[31]:
 
 
 # create test dataset, in quarters length
-train = turkey.drop(turkey.index[:-18])
+train = amerika.drop(amerika.index[:-18])
 print(train)
 model.plot_components(forecast)
 
 
-# In[8]:
+# In[22]:
 
 
 len(forecast['yhat'].values)
 
 
-# In[9]:
+# In[23]:
 
 
 from sklearn.metrics import mean_absolute_error, mean_squared_log_error, balanced_accuracy_score
 # calculate MAE between expected and predicted values for december
-y_true = turkey['y'][-len(future):].values
+y_true = amerika['y'][-len(future):].values
 y_pred = forecast['yhat'].values
 mae = mean_absolute_error(y_true, y_pred)
 loss = mean_squared_log_error(y_true,y_pred)
@@ -93,7 +93,7 @@ print("loss score",loss)
 print('MAE: %.3f' % mae)
 
 
-# In[10]:
+# In[24]:
 
 
 # plot expected vs actual
@@ -103,7 +103,7 @@ pyplot.legend()
 pyplot.show()
 
 
-# In[11]:
+# In[25]:
 
 
 from fbprophet.plot import plot_plotly, plot_components_plotly

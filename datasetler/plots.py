@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 
 # american ecommerce data
 dataset_A = pd.read_excel("ecomretailfixed.xls")
-dataset_turkey = pd.read_excel("TurkeyData3.xlsx")
+dataset_turkey = pd.read_excel("TurkeyData3.xls")
 
 date_A = dataset_A["observation_date"]
 ecomsa_A = dataset_A["ECOMSA"]
@@ -20,8 +20,8 @@ ecomsa_E = dataset_turkey["ECOMSA"]
 
 
 plt.style.use('seaborn-darkgrid')
-#plt.plot(date_A,to_tl,label="Amerika",marker=3)
-plt.plot(date_A,ecomsa_A,label="Amerika",marker=3)
+plt.plot(date_A,to_tl,label="Amerika",marker=3)
+#plt.plot(date_A,ecomsa_A,label="Amerika",marker=3)
 plt.plot(date_E,ecomsa_E,label="Türkiye",marker=2)
 
 plt.title("Türkiye ve Amerika E-Ticaret Piyasa Hacmi Karşılaştırması (TRY)")
