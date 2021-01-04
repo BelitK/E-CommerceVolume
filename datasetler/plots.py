@@ -30,8 +30,7 @@ plt.ylabel("Milyar (TRY)")
 
 plt.legend()
 plt.show()
-#plt.savefig('Matplotlib_save_plot.png')
-
+# 2018-2019 karşılaştırma
 turkey_2018 = dataset_turkey["ECOMSA"][28:32]
 total_2018=0
 for price in turkey_2018:
@@ -46,7 +45,7 @@ df = pd.DataFrame([[total_2018,2018],[total_2019,2019]],columns=list("AB"))
 
 
 
-
+# Daire grafiği
 labels = df["B"]
 values = df["A"]
 
