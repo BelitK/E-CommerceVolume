@@ -2,6 +2,7 @@ from fbprophet import Prophet
 import pandas as pd
 from pandas import DataFrame
 from matplotlib import pyplot
+from SendSql import connect_Firat, commit_data
 
 #univariate
 
