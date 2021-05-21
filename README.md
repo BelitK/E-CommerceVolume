@@ -163,12 +163,10 @@ Piyasa hacmi içinde Türkiye içinde yapılan işlemler bulunmaktadır.
 İşlemler çizelge 1 de belirtildiği gibi ayrılmaktadır. Satış tutarları
 toplamı genel piyasa hacim büyüklüğünü belirler.
 
-  |-----------------=---------------------|
   |Satış işlemleri  | Satış tutarları     |
   |-----------------| --------------------|
   |Yerel kart       | Yerel satış         |
   |Yabancı kart     | Uluslararası satış  |
-  |---------------------------------------|
 
 Çizelge 1: İşlem Tipleri
 
