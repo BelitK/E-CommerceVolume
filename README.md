@@ -163,13 +163,14 @@ Piyasa hacmi içinde Türkiye içinde yapılan işlemler bulunmaktadır.
 İşlemler çizelge 1 de belirtildiği gibi ayrılmaktadır. Satış tutarları
 toplamı genel piyasa hacim büyüklüğünü belirler.
 
+  |-----------------=---------------------|
+  |Satış işlemleri  | Satış tutarları     |
+  |-----------------| --------------------|
+  |Yerel kart       | Yerel satış         |
+  |Yabancı kart     | Uluslararası satış  |
+  |---------------------------------------|
+
 Çizelge 1: İşlem Tipleri
-
-  Satış işlemleri   Satış tutarları
-  ----------------- --------------------
-  Yerel kart        Yerel satış
-  Yabancı kart      Uluslararası satış
-
 
 
 LİTERATÜR ARAŞTIRMASI
@@ -293,7 +294,7 @@ KULLANILAN TEKNOLOJİLER
 1.  **Veri Analizi**
 
 
-### Araştırma için yapılacak analizlerde veri seti üzerinde analiz ve manipülasyon yapılabilmesi için açık kaynaklı PANDAS kütüphanesi kullanılmıştır. Zaman ve değer verilerinin makina öğrenmesi süreci için gereken veri formatına dönüştürülmesini sağladığı için bu projede PANDAS kullanımı tercih edilmiştir.
+Araştırma için yapılacak analizlerde veri seti üzerinde analiz ve manipülasyon yapılabilmesi için açık kaynaklı PANDAS kütüphanesi kullanılmıştır. Zaman ve değer verilerinin makina öğrenmesi süreci için gereken veri formatına dönüştürülmesini sağladığı için bu projede PANDAS kullanımı tercih edilmiştir.
 
 2.  **Tahmin Modeli**
 
@@ -324,7 +325,7 @@ PROJE SÜRECİ
 **5.1. Araştırma Süreci** 
 
 
-### Projenin amacı doğrultusunda Türkiye ve Yurtdışında bir ülkenin E-ticaret piyasaları hakkında bilgi toplanması için internet üzerinde ülkelerin resmi kaynaklardan yayınladığı veriler araştırılmıştır. Araştırmam sonucunda Avrupa'nın resmi verileri özel girişim şirketlerin açıklamasından ve veri seti içindeki tutarsızlıklardan kaynaklı bu verilerin kullanılmamasına karar verilmiştir. Diğer ülkelerin aynı veya daha fazla detay içeren e-ticaret veri setleri arasında A.B.D.'nin ve Türkiye'de bulunan bankalar arası Kar Merkezinin Moto ve E-ticaret 2020'nin 3.cü çeyreğine kadar olan veri seti seçilmiştir. Veri setleri üzerinde işlem yapılabilmesi için, daha önce de belirtildiği gibi, açık kaynaklı olan PANDAS veri analizi ve manipülasyon kütüphanesi kullanılmasına karar verilmiştir. 
+Projenin amacı doğrultusunda Türkiye ve Yurtdışında bir ülkenin E-ticaret piyasaları hakkında bilgi toplanması için internet üzerinde ülkelerin resmi kaynaklardan yayınladığı veriler araştırılmıştır. Araştırmam sonucunda Avrupa'nın resmi verileri özel girişim şirketlerin açıklamasından ve veri seti içindeki tutarsızlıklardan kaynaklı bu verilerin kullanılmamasına karar verilmiştir. Diğer ülkelerin aynı veya daha fazla detay içeren e-ticaret veri setleri arasında A.B.D.'nin ve Türkiye'de bulunan bankalar arası Kar Merkezinin Moto ve E-ticaret 2020'nin 3.cü çeyreğine kadar olan veri seti seçilmiştir. Veri setleri üzerinde işlem yapılabilmesi için, daha önce de belirtildiği gibi, açık kaynaklı olan PANDAS veri analizi ve manipülasyon kütüphanesi kullanılmasına karar verilmiştir. 
 
 Araştırma finans alanında yapılacağı için finansal veriler arası
 karşılaştırma ve sonuçların görselleştirilmesi hakkında araştırma sonucu
