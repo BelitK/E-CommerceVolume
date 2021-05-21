@@ -290,10 +290,10 @@ düşünülmektedir.
 KULLANILAN TEKNOLOJİLER
 =======================
 
-Veri Analizi
-------------
+1.  **Veri Analizi**
 
-### Araştırma için yapılacak analizlerde veri seti üzerinde analiz ve manipülasyon yapılabilmesi için açık kaynaklı PANDAS kütüphanesi kullanılmıştır. Zaman ve değer verilerinin makina öğrenmesi süreci için gereken veri formatına dönüştürülmesini sağladığı için bu projede PANDAS kullanımı tercih edilmiştir. {#araştırma-için-yapılacak-analizlerde-veri-seti-üzerinde-analiz-ve-manipülasyon-yapılabilmesi-için-açık-kaynaklı-pandas-kütüphanesi-kullanılmıştır.-zaman-ve-değer-verilerinin-makina-öğrenmesi-süreci-için-gereken-veri-formatına-dönüştürülmesini-sağladığı-için-bu-projede-pandas-kullanımı-tercih-edilmiştir. .list-paragraph}
+
+### Araştırma için yapılacak analizlerde veri seti üzerinde analiz ve manipülasyon yapılabilmesi için açık kaynaklı PANDAS kütüphanesi kullanılmıştır. Zaman ve değer verilerinin makina öğrenmesi süreci için gereken veri formatına dönüştürülmesini sağladığı için bu projede PANDAS kullanımı tercih edilmiştir.
 
 2.  **Tahmin Modeli**
 
@@ -321,10 +321,10 @@ içinse PLOTLY kullanılmıştır.
 PROJE SÜRECİ
 ============
 
-5.1. Araştırma Süreci 
----------------------
+**5.1. Araştırma Süreci** 
 
-### Projenin amacı doğrultusunda Türkiye ve Yurtdışında bir ülkenin E-ticaret piyasaları hakkında bilgi toplanması için internet üzerinde ülkelerin resmi kaynaklardan yayınladığı veriler araştırılmıştır. Araştırmam sonucunda Avrupa'nın resmi verileri özel girişim şirketlerin açıklamasından ve veri seti içindeki tutarsızlıklardan kaynaklı bu verilerin kullanılmamasına karar verilmiştir. Diğer ülkelerin aynı veya daha fazla detay içeren e-ticaret veri setleri arasında A.B.D.'nin ve Türkiye'de bulunan bankalar arası Kar Merkezinin Moto ve E-ticaret 2020'nin 3.cü çeyreğine kadar olan veri seti seçilmiştir. Veri setleri üzerinde işlem yapılabilmesi için, daha önce de belirtildiği gibi, açık kaynaklı olan PANDAS veri analizi ve manipülasyon kütüphanesi kullanılmasına karar verilmiştir. #projenin-amacı-doğrultusunda-türkiye-ve-yurtdışında-bir-ülkenin-e-ticaret-piyasaları-hakkında-bilgi-toplanması-için-internet-üzerinde-ülkelerin-resmi-kaynaklardan-yayınladığı-veriler-araştırılmıştır.-araştırmam-sonucunda-avrupanın-resmi-verileri-özel-girişim-şirketlerin-açıklamasından-ve-veri-seti-içindeki-tutarsızlıklardan-kaynaklı-bu-verilerin-kullanılmamasına-karar-verilmiştir.-diğer-ülkelerin-aynı-veya-daha-fazla-detay-içeren-e-ticaret-veri-setleri-arasında-a.b.d.nin-ve-türkiyede-bulunan-bankalar-arası-kar-merkezinin-moto-ve-e-ticaret-2020nin-3.cü-çeyreğine-kadar-olan-veri-seti-seçilmiştir.-veri-setleri-üzerinde-işlem-yapılabilmesi-için-daha-önce-de-belirtildiği-gibi-açık-kaynaklı-olan-pandas-veri-analizi-ve-manipülasyon-kütüphanesi-kullanılmasına-karar-verilmiştir.
+
+### Projenin amacı doğrultusunda Türkiye ve Yurtdışında bir ülkenin E-ticaret piyasaları hakkında bilgi toplanması için internet üzerinde ülkelerin resmi kaynaklardan yayınladığı veriler araştırılmıştır. Araştırmam sonucunda Avrupa'nın resmi verileri özel girişim şirketlerin açıklamasından ve veri seti içindeki tutarsızlıklardan kaynaklı bu verilerin kullanılmamasına karar verilmiştir. Diğer ülkelerin aynı veya daha fazla detay içeren e-ticaret veri setleri arasında A.B.D.'nin ve Türkiye'de bulunan bankalar arası Kar Merkezinin Moto ve E-ticaret 2020'nin 3.cü çeyreğine kadar olan veri seti seçilmiştir. Veri setleri üzerinde işlem yapılabilmesi için, daha önce de belirtildiği gibi, açık kaynaklı olan PANDAS veri analizi ve manipülasyon kütüphanesi kullanılmasına karar verilmiştir. 
 
 Araştırma finans alanında yapılacağı için finansal veriler arası
 karşılaştırma ve sonuçların görselleştirilmesi hakkında araştırma sonucu
